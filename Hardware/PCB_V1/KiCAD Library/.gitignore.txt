@@ -1,0 +1,36 @@
+# ==========================================
+# KiCad Temporary & Preference Files
+# ==========================================
+# Lock files created while files are open
+*.lck
+
+# Local display settings, view positions, and window preferences (KiCad v6+)
+*.kicad_prl
+
+# Auto-saved and backup files
+*-backups/
+*.bak
+*_old/
+
+# Cache files
+*.cache
+*-cache.lib
+
+# ==========================================
+# Operating System Junk Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# Text Editor & IDE Settings
+# ==========================================
+.vscode/
+.idea/

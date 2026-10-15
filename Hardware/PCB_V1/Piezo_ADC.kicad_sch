@@ -8,6 +8,269 @@
 		(rev "-")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Maven Robotics:root_0_3bc925449376181038e59eaffc5286c_Maven Robotics"
 			(pin_names
 				(hide yes)
@@ -5578,6 +5841,12 @@
 		(uuid "17d7fa88-2e03-459f-a177-ee24c19eea1e")
 	)
 	(junction
+		(at 279.4 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a1e1a5c-a0b9-47c1-9bb8-74f16fcbb709")
+	)
+	(junction
 		(at 99.06 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5614,10 +5883,10 @@
 		(uuid "56f2edb5-b1b6-482f-b860-53961c5ccba9")
 	)
 	(junction
-		(at 281.94 170.18)
+		(at 279.4 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62ea899e-222e-4567-8b8f-7fec69a058c4")
+		(uuid "5ffc4f1a-953a-4368-bc75-1d5bf1ade565")
 	)
 	(junction
 		(at 190.5 154.94)
@@ -5686,10 +5955,22 @@
 		(uuid "b46919f1-8bc2-43f7-a2d7-a7892c42b9a5")
 	)
 	(junction
+		(at 271.78 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9180dc6-698e-4c3e-9db9-dc91993be377")
+	)
+	(junction
 		(at 208.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a1d84a-6699-46ef-8767-932e99dffc04")
+	)
+	(junction
+		(at 266.7 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94db5d0-1417-4422-af78-033892f73921")
 	)
 	(junction
 		(at 139.7 129.54)
@@ -5821,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "0b1d39bb-a784-40bd-b80f-6a840cb4166a")
+	)
+	(wire
+		(pts
+			(xy 278.13 154.94) (xy 278.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b778171-9db4-4235-b710-dbf9bba4908c")
 	)
 	(wire
 		(pts
@@ -6106,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 180.34) (xy 292.1 180.34)
+			(xy 294.64 180.34) (xy 289.56 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6126,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 180.34) (xy 292.1 170.18)
+			(xy 289.56 180.34) (xy 289.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6175,6 +6466,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "2d040ffc-3015-4757-962d-e8329c5c8bac")
+	)
+	(wire
+		(pts
+			(xy 279.4 144.78) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e584e4c-c09c-4317-b099-2ca50acc024d")
 	)
 	(wire
 		(pts
@@ -6252,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 170.18) (xy 281.94 172.72)
+			(xy 279.4 170.18) (xy 279.4 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6299,6 +6600,16 @@
 			(type default)
 		)
 		(uuid "420427f3-ddf4-4a1f-9f12-d5fc2dc98470")
+	)
+	(wire
+		(pts
+			(xy 271.78 148.59) (xy 271.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4229287f-3728-4d0e-b6cc-b0de7d6e1372")
 	)
 	(wire
 		(pts
@@ -6404,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 167.64) (xy 281.94 170.18)
+			(xy 279.4 167.64) (xy 279.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6673,7 +6984,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 170.18) (xy 281.94 170.18)
+			(xy 289.56 170.18) (xy 279.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6975,7 +7286,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 182.88) (xy 281.94 180.34)
+			(xy 279.4 182.88) (xy 279.4 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7392,6 +7703,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 154.94) (xy 278.13 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1002134-77ec-4cc5-81b5-77c28b0188e1")
+	)
+	(wire
+		(pts
 			(xy 68.58 157.48) (xy 73.66 157.48)
 		)
 		(stroke
@@ -7495,6 +7816,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "b6771c0e-fb44-4881-85af-bf8b1697e85b")
+	)
+	(wire
+		(pts
+			(xy 271.78 148.59) (xy 281.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7eb5ebb-637f-44e6-b96f-0f3be8a933d5")
 	)
 	(polyline
 		(pts
@@ -7820,6 +8151,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 146.05) (xy 281.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17b248c-2ccb-4edc-a10b-59b4b976b34e")
+	)
+	(wire
+		(pts
 			(xy 266.7 200.66) (xy 266.7 154.94)
 		)
 		(stroke
@@ -8036,6 +8377,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f8a30973-5e32-4aa0-89b3-b3ef10771441")
+	)
+	(wire
+		(pts
+			(xy 278.13 151.13) (xy 281.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad82d8b-6ff0-48b1-acbe-30380e2d722f")
 	)
 	(polyline
 		(pts
@@ -13052,7 +13403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043fb099-d13d-457c-ae58-79e883115685")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 76.2 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13109,7 +13460,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13405,7 +13756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0949589a-de82-4a13-8126-a397775540e8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR038"
 			(at 294.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13462,7 +13813,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14067,7 +14418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1268bc7b-b6c3-44b5-986b-beb7a5d230c1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 149.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14124,7 +14475,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14796,7 +15147,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
-		(at 281.94 167.64 180)
+		(at 279.4 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14805,8 +15156,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a8939f-41f2-4250-9a36-50a7d323de9e")
-		(property "Reference" "#PWR?"
-			(at 281.94 167.64 0)
+		(property "Reference" "#PWR032"
+			(at 279.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14817,7 +15168,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 281.94 163.83 0)
+			(at 279.4 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14827,7 +15178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 167.64 0)
+			(at 279.4 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14837,7 +15188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 167.64 0)
+			(at 279.4 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14847,7 +15198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 167.64 0)
+			(at 279.4 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14862,7 +15213,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14879,7 +15230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2be43836-b933-447f-8273-ce99502d52d2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 20.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14936,7 +15287,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14953,7 +15304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2db499b7-6002-4016-a89d-290139f92de3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15010,7 +15361,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15027,7 +15378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f631cd0-849f-4934-bb48-3af63172a61b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR027"
 			(at 187.96 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15084,7 +15435,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15101,7 +15452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "326742c9-1d08-4bc6-ae2d-9a375bbad4db")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15158,7 +15509,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15175,7 +15526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38bdce1a-3705-4d63-941f-1494fbd2bb73")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15232,7 +15583,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15249,7 +15600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "429a7343-d19b-49c9-a94c-e66dadd2dcbc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 139.7 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15306,7 +15657,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15323,7 +15674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4419e34b-6fd6-496d-aae8-4b5655b7d1f1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15380,7 +15731,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15397,7 +15748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44a0a308-e9a4-4beb-82e1-df88aa40f8d6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 185.42 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15454,7 +15805,94 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 287.02 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "456c0e5e-2fa8-49f7-aaf7-c9e8e6326972")
+		(property "Reference" "J3"
+			(at 287.782 154.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 286.258 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 287.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 287.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d767b059-57ad-423b-849b-06ed72804292")
+		)
+		(pin "1"
+			(uuid "e565d15d-5fe0-4f07-903f-de44986adaa9")
+		)
+		(pin "3"
+			(uuid "adb1c6a2-3926-46f0-8b31-ce74e3787a61")
+		)
+		(pin "4"
+			(uuid "21dfa919-1a21-45fe-9932-246983aa8390")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15892,7 +16330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5097608d-7a85-4941-8120-2860b4fdea63")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR037"
 			(at 294.64 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15949,7 +16387,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16236,7 +16674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a3d86a3-ef6e-481b-bbf0-1bac1a93abf3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 139.7 127 0)
 			(hide yes)
 			(show_name no)
@@ -16293,7 +16731,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16310,7 +16748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a6a9e1c-9bc8-4c63-89a4-16a095ad1ed5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -16367,7 +16805,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17815,7 +18253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69707046-c027-49db-9127-c13f699d85b0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 30.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17872,7 +18310,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17889,7 +18327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ab7132e-0725-44a0-9729-ab198736a9cc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 127 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17946,7 +18384,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17963,7 +18401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d8afdf8-9944-4a54-bb63-da36ee20f4d0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 198.12 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18020,7 +18458,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18816,7 +19254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83267484-0cc3-4f50-8554-bf4420da4f62")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 111.76 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18873,7 +19311,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19560,7 +19998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88200c5a-64d9-4e72-915d-7352a27f3ff7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 149.86 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -19617,7 +20055,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20022,7 +20460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d3e84d1-a480-40a7-914e-0bb8b8ef97b3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 187.96 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -20079,7 +20517,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20087,7 +20525,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 281.94 182.88 0)
+		(at 279.4 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20096,8 +20534,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90393b57-bcda-4e55-a0c9-761023038426")
-		(property "Reference" "#PWR?"
-			(at 281.94 182.88 0)
+		(property "Reference" "#PWR033"
+			(at 279.4 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20108,7 +20546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 189.23 0)
+			(at 279.4 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20118,7 +20556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 182.88 0)
+			(at 279.4 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20128,7 +20566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 182.88 0)
+			(at 279.4 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20138,7 +20576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 182.88 0)
+			(at 279.4 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20153,7 +20591,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20170,7 +20608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "961202d3-7003-4da7-ae8c-ab5c1ab17bd4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR034"
 			(at 284.48 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -20227,7 +20665,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20244,7 +20682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9942c94e-2b36-4895-a3d1-b438b4ed2a52")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20301,7 +20739,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20318,7 +20756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1975237-ac8f-4f5a-aa20-845a8d5e1c8a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20375,7 +20813,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21212,7 +21650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7fd096d-d419-4a43-857e-11b73b6b0da0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 55.88 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21269,7 +21707,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -21418,6 +21856,80 @@
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
 					(reference "FD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 281.94 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab3a6c38-05fd-4f7b-a9c0-3bcf8a0afc85")
+		(property "Reference" "#PWR01"
+			(at 281.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "76a3d1f5-870b-49c0-9b68-947151601a9a")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -21842,7 +22354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0a169bb-e413-4cbb-9c1a-fde541c95658")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR041"
 			(at 381 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21899,7 +22411,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21916,7 +22428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0d08beb-ec09-4f88-84fa-d0cd4e9b040a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR039"
 			(at 375.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21973,7 +22485,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -22776,7 +23288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbc8d541-e348-4bb4-9862-2837d4fd92c8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 149.86 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -22833,7 +23345,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -23100,7 +23612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdf4b1a5-23ce-46c1-8e40-2adeb3efa906")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR040"
 			(at 375.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -23158,7 +23670,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23167,7 +23679,7 @@
 	(symbol
 		(lib_name "root_1_CAP-NP-2_Maven Robotics_2")
 		(lib_id "Maven Robotics:root_1_CAP-NP-2_Maven Robotics")
-		(at 281.94 180.34 180)
+		(at 279.4 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23177,7 +23689,7 @@
 		(dnp no)
 		(uuid "bea951a6-c96d-4fb8-8a62-769f30e6083f")
 		(property "Reference" "C12"
-			(at 284.226 177.546 0)
+			(at 281.686 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23188,7 +23700,7 @@
 			)
 		)
 		(property "Value" "Cap_0.1uF_10%_16V_0402"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23200,7 +23712,7 @@
 			)
 		)
 		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 281.94 180.34 0)
+			(at 279.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23211,7 +23723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 180.34 0)
+			(at 279.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23222,7 +23734,7 @@
 			)
 		)
 		(property "Description" "Capacitor, 0.1uF, 10% tolerance, 16V, 0402 Package."
-			(at 281.94 180.34 0)
+			(at 279.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23233,7 +23745,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23245,7 +23757,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23257,7 +23769,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "-40°C"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23269,7 +23781,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 284.226 182.626 0)
+			(at 281.686 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23280,7 +23792,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23292,7 +23804,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000003"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23304,7 +23816,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "16V"
-			(at 284.226 185.166 0)
+			(at 281.686 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23315,7 +23827,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23327,7 +23839,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23339,7 +23851,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 284.226 180.086 0)
+			(at 281.686 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23350,7 +23862,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "125°C"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23362,7 +23874,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23374,7 +23886,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23386,7 +23898,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23398,7 +23910,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 284.226 187.706 0)
+			(at 281.686 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23409,7 +23921,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "<Yes>, <No>"
-			(at 279.654 172.212 0)
+			(at 277.114 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23446,7 +23958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1728646-a541-45bc-a914-00045113fbe8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -23503,7 +24015,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -23520,7 +24032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6982213-74e6-46bd-afa8-a3c4d63e60db")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 109.22 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -23577,7 +24089,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -23594,7 +24106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde41510-ee49-4e1f-bb8b-9d5b545aa1cc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 109.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -23651,7 +24163,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -23831,7 +24343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfa313e4-5309-4f37-9590-8291f5d3b39b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 20.32 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -23888,7 +24400,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -25485,7 +25997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e88f817d-3e35-4616-a851-04c240662543")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 45.72 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25542,7 +26054,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -25559,7 +26071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9e393ad-6952-4ae8-a4af-fae5010bcd37")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 243.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25616,7 +26128,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -26182,7 +26694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef0b825b-2161-4244-b0da-957edf0c1cae")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 68.58 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -26239,7 +26751,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -26526,7 +27038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f45e0671-512e-44af-be11-edd52aab5cad")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR035"
 			(at 284.48 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -26583,7 +27095,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -26751,7 +27263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f52a9005-da9d-4700-b7ab-765ae20087d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 99.06 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -26808,7 +27320,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -26825,7 +27337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faffaeda-414a-4c04-9c2e-4dd6868301d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR036"
 			(at 292.1 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -26882,7 +27394,7 @@
 		(instances
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR?")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

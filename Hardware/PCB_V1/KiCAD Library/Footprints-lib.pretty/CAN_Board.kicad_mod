@@ -1,0 +1,177 @@
+(footprint "CAN_Board"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e30f3579-fa21-4381-a4ea-b47b5ec68893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CAN_Board"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83201368-3a1a-4db3-9fdf-fc300e4472bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9026e994-bf94-47cf-912b-c2d804e5cbe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89f14817-89d2-4f2b-b5b9-b662aed101e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 -5)
+		(end 5 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9e086b78-add9-4f76-bd43-764807be4061")
+	)
+	(fp_text user "3.3V"
+		(at 3 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "2e9e55b1-4ed5-42b0-bb3c-0417b52d4983")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 0.5 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "67b2365e-5d4e-438d-b374-d2c4d774bb97")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CAN RX"
+		(at -2 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d467cd70-74ae-45e4-a934-ca980f6354a7")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CAN TX"
+		(at -5 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "e96ec587-ac59-4f59-91ff-744dec545517")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11a20361-067e-48fb-8160-9c6643928bdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 3.251868 -2.5 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fc4fb91-e307-47df-9292-dbbc680d4367")
+	)
+	(pad "2" thru_hole circle
+		(at 0.751868 -2.5 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b75d0c4-99e5-403d-9493-5455013a7802")
+	)
+	(pad "3" thru_hole circle
+		(at -1.748132 -2.5 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d19d903-fc20-42d5-af05-17a837ebf01e")
+	)
+	(pad "4" thru_hole circle
+		(at -4.248132 -2.5 270)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e735d332-0e43-48a0-901b-be36a2ba322b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/CAN Transiver SN65HVD230.step"
+		(offset
+			(xyz -8.5 -4 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 90 -180)
+		)
+	)
+)

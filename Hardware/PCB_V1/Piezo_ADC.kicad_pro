@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -537,7 +537,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "All Nets",
+        "pattern": "CS_SE"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -667,7 +672,7 @@
         "uuid": "b59525dd-c3a5-42c4-90f7-d761f18c34ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3,#PWR1-41",
     "variants": []
   },
   "sheets": [
