@@ -8,269 +8,6 @@
 		(rev "-")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Maven Robotics:root_0_3bc925449376181038e59eaffc5286c_Maven Robotics"
 			(pin_names
 				(hide yes)
@@ -5841,12 +5578,6 @@
 		(uuid "17d7fa88-2e03-459f-a177-ee24c19eea1e")
 	)
 	(junction
-		(at 279.4 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a1e1a5c-a0b9-47c1-9bb8-74f16fcbb709")
-	)
-	(junction
 		(at 99.06 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5955,22 +5686,10 @@
 		(uuid "b46919f1-8bc2-43f7-a2d7-a7892c42b9a5")
 	)
 	(junction
-		(at 271.78 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9180dc6-698e-4c3e-9db9-dc91993be377")
-	)
-	(junction
 		(at 208.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a1d84a-6699-46ef-8767-932e99dffc04")
-	)
-	(junction
-		(at 266.7 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c94db5d0-1417-4422-af78-033892f73921")
 	)
 	(junction
 		(at 139.7 129.54)
@@ -6102,16 +5821,6 @@
 			(type default)
 		)
 		(uuid "0b1d39bb-a784-40bd-b80f-6a840cb4166a")
-	)
-	(wire
-		(pts
-			(xy 278.13 154.94) (xy 278.13 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b778171-9db4-4235-b710-dbf9bba4908c")
 	)
 	(wire
 		(pts
@@ -6469,16 +6178,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 279.4 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e584e4c-c09c-4317-b099-2ca50acc024d")
-	)
-	(wire
-		(pts
 			(xy 68.58 175.26) (xy 68.58 180.34)
 		)
 		(stroke
@@ -6600,16 +6299,6 @@
 			(type default)
 		)
 		(uuid "420427f3-ddf4-4a1f-9f12-d5fc2dc98470")
-	)
-	(wire
-		(pts
-			(xy 271.78 148.59) (xy 271.78 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4229287f-3728-4d0e-b6cc-b0de7d6e1372")
 	)
 	(wire
 		(pts
@@ -7703,16 +7392,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 154.94) (xy 278.13 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1002134-77ec-4cc5-81b5-77c28b0188e1")
-	)
-	(wire
-		(pts
 			(xy 68.58 157.48) (xy 73.66 157.48)
 		)
 		(stroke
@@ -7816,16 +7495,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "b6771c0e-fb44-4881-85af-bf8b1697e85b")
-	)
-	(wire
-		(pts
-			(xy 271.78 148.59) (xy 281.94 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7eb5ebb-637f-44e6-b96f-0f3be8a933d5")
 	)
 	(polyline
 		(pts
@@ -8151,16 +7820,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 146.05) (xy 281.94 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17b248c-2ccb-4edc-a10b-59b4b976b34e")
-	)
-	(wire
-		(pts
 			(xy 266.7 200.66) (xy 266.7 154.94)
 		)
 		(stroke
@@ -8377,16 +8036,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f8a30973-5e32-4aa0-89b3-b3ef10771441")
-	)
-	(wire
-		(pts
-			(xy 278.13 151.13) (xy 281.94 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad82d8b-6ff0-48b1-acbe-30380e2d722f")
 	)
 	(polyline
 		(pts
@@ -15812,93 +15461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 287.02 151.13 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "456c0e5e-2fa8-49f7-aaf7-c9e8e6326972")
-		(property "Reference" "J3"
-			(at 287.782 154.178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 286.258 156.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 287.02 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 287.02 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d767b059-57ad-423b-849b-06ed72804292")
-		)
-		(pin "1"
-			(uuid "e565d15d-5fe0-4f07-903f-de44986adaa9")
-		)
-		(pin "3"
-			(uuid "adb1c6a2-3926-46f0-8b31-ce74e3787a61")
-		)
-		(pin "4"
-			(uuid "21dfa919-1a21-45fe-9932-246983aa8390")
-		)
-		(instances
-			(project "Piezo_ADC"
-				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
 		(at 289.56 200.66 90)
 		(unit 1)
@@ -15932,7 +15494,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 289.56 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -16845,7 +16407,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 289.56 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16996,7 +16558,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21856,80 +21418,6 @@
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
 					(reference "FD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 281.94 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab3a6c38-05fd-4f7b-a9c0-3bcf8a0afc85")
-		(property "Reference" "#PWR01"
-			(at 281.94 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 281.94 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "76a3d1f5-870b-49c0-9b68-947151601a9a")
-		)
-		(instances
-			(project "Piezo_ADC"
-				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
