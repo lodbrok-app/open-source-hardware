@@ -1,0 +1,182 @@
+(footprint "Keystone 5001 TP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP1"
+		(at 2 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37d4c202-e07e-40f9-a6e9-e96c43f3b6fa")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TPAD6R"
+		(at 0.25 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30be310c-952c-4cb9-a97b-2af53e3795b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1cae0a7-4435-4581-b1e5-90139a7e45e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.6mm round"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9c1b6bc-a3c3-4c98-aa67-dd6bca2d02ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE/PACKAGE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "555cf5be-0bd0-4e1f-a141-1d92c29c23ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS COMPLIANT" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ce441f3-59a0-42bf-881b-5351292a2991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42728b3-6761-493d-8383-3992302ffb80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f87b0656-75c4-4ee0-80bf-6969b5920024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c750a99b-dd9e-408f-aca6-2199a1fa0f4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f1f053b-7bce-4fad-8ed9-43c8383e5c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*TP06R*")
+	(sheetname "/")
+	(sheetfile "Piezo_ADC.kicad_sch")
+	(attr board_only)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c058e22b-14cc-4064-b2fc-601553710f3e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b1d1b79-6e2b-4cb1-b48d-32656d602eaf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "daae6305-717b-41dd-b498-9b6a4b57f5f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d86b3414-5224-4a8c-b92e-b4a3bc0581d1")
+	)
+	(embedded_fonts no)
+)

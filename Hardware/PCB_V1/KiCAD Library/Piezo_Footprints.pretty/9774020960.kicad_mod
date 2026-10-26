@@ -1,0 +1,412 @@
+(footprint "9774020960"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "MP4"
+		(at 2.836925 -4.401556 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "100af31b-84e6-4156-85ba-8afd5e0cab79")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "STAND_OFF_M3_2mm_NS_SMT"
+		(at 14.256515 5.096002 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5854563-5c3f-41e5-890e-299a8ee13a46")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "93be5c1e-47e2-44ef-bff8-b9ac2c438fba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "WA-SMST SMT Steel Spacer, M3 - Ø3.3, 2mm stand-off, Internal non Stop"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "8b12712b-95fd-4137-8996-7b85d9799463")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" "-55°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "464cfa80-bcac-4946-b08e-42a8a32edc4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" "150°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b78747ab-453c-4759-bc62-cba3f9e1a811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE/PACKAGE" "NS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2e741e1-e036-4289-97e5-1c2ec946ad4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MRPN" "MRPN-0000185"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e91fd5-3cf3-4d69-ae81-447adf1ec905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" "SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c207c022-506e-4c0d-9acd-58d72d83e768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c396bb7-c076-4415-86ee-a4bdd04fd482")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS COMPLIANT" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "746fd489-7901-4431-9056-d7c337011461")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*9774020960*")
+	(sheetname "/")
+	(sheetfile "Piezo_ADC.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -3.1 -0.4)
+			(arc
+				(start -2.203998 -0.4)
+				(mid -1.583922 -1.583922)
+				(end -0.400001 -2.203998)
+			)
+			(xy -0.4 -2.204)
+			(arc
+				(start -0.400002 -3.100007)
+				(mid -2.223847 -2.223855)
+				(end -3.099997 -0.400009)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "9293b27d-1386-48d3-9a78-b71e6626f6f1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.40001 3.09999)
+			(arc
+				(start -0.4 2.203988)
+				(mid -1.583922 1.583912)
+				(end -2.203998 0.399991)
+			)
+			(xy -2.204 0.4)
+			(arc
+				(start -3.100007 0.399992)
+				(mid -2.223855 2.223837)
+				(end -0.400009 3.099987)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "30f4b2a6-b508-4d78-80c6-5be70a898e11")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 -3.1)
+			(arc
+				(start 0.4 -2.203998)
+				(mid 1.583922 -1.583922)
+				(end 2.203998 -0.400001)
+			)
+			(xy 2.20399 -0.4)
+			(arc
+				(start 3.099997 -0.400002)
+				(mid 2.223845 -2.223847)
+				(end 0.399999 -3.099997)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "878091c3-db06-4acf-a504-2fb49a65cade")
+	)
+	(fp_poly
+		(pts
+			(xy 3.09999 0.4)
+			(arc
+				(start 2.203988 0.4)
+				(mid 1.583912 1.583922)
+				(end 0.399991 2.203998)
+			)
+			(xy 0.4 2.20399)
+			(arc
+				(start 0.399992 3.099997)
+				(mid 2.223837 2.223845)
+				(end 3.099987 0.399999)
+			)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "dc6f9a58-5926-4d8c-a2e0-64fe9ccb8368")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "59b9c00c-30fa-4584-a2ac-e1761b0bc183")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb0a08c3-dc59-4d90-a004-f921630f0c5e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5094dc8f-9a3e-41c9-8781-ca79225c5ea9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "7d77ea9c-ebfd-4623-963d-3d65ebe796c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000005 -0.187305 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e07e27cd-2945-4af5-8961-341305a83bab")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.945 0.945)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "MP4" 180
+			(polygon
+				(pts
+					(xy 1.260849 -0.57948) (xy 1.260849 0.369608) (xy 1.072393 0.369608) (xy 0.848392 -0.302681) (xy 0.803211 -0.443244)
+					(xy 0.752837 -0.291025) (xy 0.52624 0.369608) (xy 0.357749 0.369608) (xy 0.357749 -0.57948) (xy 0.478462 -0.57948)
+					(xy 0.478462 0.215312) (xy 0.753472 -0.57948) (xy 0.866453 -0.57948) (xy 1.140135 0.228872) (xy 1.140135 -0.57948)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.15556 0.369608) (xy -0.201386 0.369608) (xy -0.290087 0.366992) (xy -0.345353 0.360607) (xy -0.410964 0.343183)
+					(xy -0.462201 0.316464) (xy -0.491052 0.292397) (xy -0.516292 0.262278) (xy -0.538022 0.225294)
+					(xy -0.553856 0.185377) (xy -0.563475 0.142639) (xy -0.566757 0.096503) (xy -0.56643 0.092637)
+					(xy -0.437677 0.092637) (xy -0.434163 0.131574) (xy -0.424077 0.165388) (xy -0.407672 0.195058)
+					(xy -0.385353 0.220411) (xy -0.359195 0.238979) (xy -0.328562 0.251318) (xy -0.29028 0.257107)
+					(xy -0.211715 0.259743) (xy 0.030346 0.259743) (xy 0.030346 -0.080931) (xy -0.214311 -0.080931)
+					(xy -0.276958 -0.07734) (xy -0.324632 -0.067738) (xy -0.360363 -0.05351) (xy -0.386668 -0.035462)
+					(xy -0.414408 -0.002004) (xy -0.43155 0.03985) (xy -0.437677 0.092637) (xy -0.56643 0.092637) (xy -0.561761 0.037454)
+					(xy -0.547258 -0.015507) (xy -0.523472 -0.063517) (xy -0.489956 -0.107416) (xy -0.458611 -0.134511)
+					(xy -0.417562 -0.157096) (xy -0.364679 -0.174751) (xy -0.297317 -0.186483) (xy -0.212407 -0.190796)
+					(xy 0.030346 -0.190796) (xy 0.030346 -0.57948) (xy 0.15556 -0.57948)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.051457 -0.353286) (xy -0.640905 -0.353286) (xy -0.640905 -0.247114) (xy -1.07275 0.365915)
+					(xy -1.16767 0.365915) (xy -1.16767 0.179421) (xy -1.051457 0.179421) (xy -0.755156 -0.247114)
+					(xy -1.051457 -0.247114) (xy -1.051457 0.179421) (xy -1.16767 0.179421) (xy -1.16767 -0.247114)
+					(xy -1.295481 -0.247114) (xy -1.295481 -0.353286) (xy -1.16767 -0.353286) (xy -1.16767 -0.57948)
+					(xy -1.051457 -0.57948)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 4.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adb39321-fa42-49ed-8911-3ea36f70b5b4")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 6.5 6.5)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 6.5 6.5)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "9774020960.stp")
+			(type other)
+			(data |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|
+			)
+			(checksum "1056834A969482258575CA68783BBB52")
+		)
+	)
+	(model "kicad-embed://9774020960.stp"
+		(offset
+			(xyz 0.00004 0.00006 -1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

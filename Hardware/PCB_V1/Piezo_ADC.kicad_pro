@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,8 +69,187 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "padstack|125385095|100189920|9c1732e9-8987-4da8-9abd-a52101eeac07|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|125385095|115689920|7ee7f82e-0561-4e52-affc-e7f5128fd32e|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|128435095|102224920|d045f9a2-cd3b-4310-b572-44591db68226|00000000-0000-0000-0000-000000000000",
+          "mounting hole, no solder paste needed"
+        ],
+        [
+          "padstack|128435095|113654920|232d8ed8-e3ea-4073-9088-a7146f79eb63|00000000-0000-0000-0000-000000000000",
+          "mounting hole, no solder paste needed"
+        ],
+        [
+          "padstack|130832885|120459920|a631bd88-3d74-49ea-8922-275b7d99d0a7|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|130832885|124419920|71755f2b-44d7-4436-ae4b-3ae7469a337d|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|134785095|103494920|2dae247f-286b-40ff-9c2a-3d31df1d9c6a|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|134785095|106034920|08caea58-70db-4498-b296-010fee0f6a2e|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|134785095|108574920|eaa7a03a-289e-4a38-8f01-290758a75b6c|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|134785095|111114920|010e59fe-9b7f-4d59-b9c2-cb92310fb028|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|137325095|104764920|c84298ed-544f-4d36-9721-b15847109a02|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|137325095|107304920|b93792c8-16ef-41ea-80ca-51966e0c4900|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|137325095|109844920|0184af56-7569-42fc-ae44-4aaf8f011c69|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|137325095|112384920|b523c367-57ad-423a-bd5f-b08efd703766|00000000-0000-0000-0000-000000000000",
+          "TH, no solder paste needed"
+        ],
+        [
+          "padstack|141532885|99189920|8e0188b6-e673-4478-87fc-7724a6db7398|00000000-0000-0000-0000-000000000000",
+          "Test point, no solder paste needed"
+        ],
+        [
+          "padstack|151882885|120222920|73014278-9f0e-440c-aec5-bbedde8049a8|00000000-0000-0000-0000-000000000000",
+          "Test point, no solder paste needed"
+        ],
+        [
+          "track_dangling|147047404|107973785|6b57919b-1780-4115-828f-55f5b9a73b73|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|147253725|108476480|1426fd90-4bef-48f6-8068-78b02c209931|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|127723595|94766110|651bcfbf-a91c-4033-b1b8-1f44e2e60be8|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|128527155|92826160|0555a603-836d-4484-920c-09c5c21a712f|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|128527155|96706050|550276e6-32f1-4f6d-9250-ad70167c619c|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|130467095|92022610|aa264662-31be-40e9-b0da-009917b9fc53|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|130467095|97509610|01a8f17b-d1d3-43ca-8112-d72c4d849d94|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|132407045|96706050|058f6376-acc8-4b75-b7b7-8e4f4e32151c|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|135539385|123089920|e3d3110b-163e-4dca-b645-18907643de81|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|136342945|121149970|3567cb1f-01a1-49ae-a080-38e7a7af8362|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|136342945|125029860|a9faa1ee-8c86-470e-bf86-4dcbafe7e81e|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|138282885|120346420|f6adab18-4dce-46bb-a951-419c484b5b21|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|138282885|125833420|cacff25b-be13-4a0f-af2d-d22bd41f807c|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|140222835|121149970|9a6fe0ed-4511-420e-8256-90258997639b|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|141026385|123089920|4c645a45-f44b-4c7d-9d75-4fe1ea67386a|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|160789385|123189920|0dd64cf0-b12d-4faf-91eb-c4274d691ea1|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|160789385|94939920|9bd3cf3d-8c9f-4b98-9f13-cad426436417|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|161592945|121249970|7fab1ebd-13f8-4916-b3c1-887bbf07f7c1|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|161592945|96879860|d80f0ec7-3f20-4d3f-be58-cc51ba17a678|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|163532885|120446420|4376d5c9-f4f0-4edd-9f6b-983a5ff14a92|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|163532885|125933420|d407a8ef-a32a-4dbe-89bf-b6fdf0db8213|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|163532885|92196420|8a823965-2e60-46a9-8372-4d169589baec|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|163532885|97683420|0a59bf72-e3f2-4ce7-96bf-b1ad593b2f65|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|165472835|125129860|ea9d1fbf-99fe-4135-b0c6-e05b3dbd0f40|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|165472835|92999970|7b788468-f4c5-4982-80a9-691088f042f4|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|166276385|123189920|4c1945bb-891f-4dfb-bee0-602377e7c611|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ],
+        [
+          "via_dangling|166276385|94939920|31f3dac6-b976-4a06-88d9-0523a0c2c724|00000000-0000-0000-0000-000000000000",
+          "Stitching via"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,23 +319,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_via_diameter": 0.6,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -203,7 +382,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25135
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +412,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -484,7 +671,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Piezo_Footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -672,7 +861,7 @@
         "uuid": "b59525dd-c3a5-42c4-90f7-d761f18c34ae"
       }
     ],
-    "used_designators": "#PWR42-43,D1",
+    "used_designators": "R15,C13",
     "variants": []
   },
   "sheets": [

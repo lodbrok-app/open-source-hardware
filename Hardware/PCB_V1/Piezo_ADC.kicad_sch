@@ -5866,8 +5866,8 @@
 	)
 	(text_box "THIS DOCUMENT AND THE DATA DISCLOSED HEREIN OR HEREWITH IS THE PROPERTY OF ALTIUM LIMITED AND MAY BE FREELY DISTRIBUTED IN WHOLE. NO RIGHTS ARE RESERVED OR EXPRESS OR IMPLIED WARANTEE GIVEN."
 		(exclude_from_sim no)
-		(at 75.692 6.35 0)
-		(size -69.342 10.668)
+		(at 17.018 15.367 0)
+		(size 69.342 10.668)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -5886,22 +5886,34 @@
 		(uuid "e6087c67-9ee0-453f-abac-492ad3868e5b")
 	)
 	(junction
-		(at 20.32 48.26)
+		(at 33.02 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "008345f8-003b-4599-bf71-b0db3080a669")
 	)
 	(junction
-		(at 127 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "034619b6-ca13-4010-b220-79ce9e5067c9")
-	)
-	(junction
-		(at 30.48 22.86)
+		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051f37fe-a0fe-476d-a60b-18e97e4465bd")
+	)
+	(junction
+		(at 165.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091fa528-6ae7-4947-9c2d-209448a94ee0")
+	)
+	(junction
+		(at 50.8 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11dbc641-39ff-4a12-a6c4-5b2e5a77c992")
+	)
+	(junction
+		(at 83.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121ff82f-18c2-44d1-9906-de83c1073535")
 	)
 	(junction
 		(at 198.12 127)
@@ -5910,40 +5922,40 @@
 		(uuid "17d7fa88-2e03-459f-a177-ee24c19eea1e")
 	)
 	(junction
-		(at 99.06 22.86)
+		(at 111.76 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b13fb24-71bf-4a10-81c2-e0d4c54ae66e")
 	)
 	(junction
-		(at 165.1 154.94)
+		(at 132.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d4eddc6-abbb-48aa-90cf-f3d5a2b94fab")
+		(uuid "262f0f4f-efdd-4277-b29f-4d39a72ab15f")
 	)
 	(junction
-		(at 109.22 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2591fcb2-df68-44fe-83fc-c10493ee2009")
-	)
-	(junction
-		(at 185.42 154.94)
+		(at 189.23 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30cf6309-3673-4716-a64f-5455f33c1a33")
 	)
 	(junction
-		(at 132.08 157.48)
+		(at 68.58 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4809ee14-0ac1-46ef-b98d-0bbb2036725e")
+		(uuid "34b6e172-167a-4a1a-baf4-34f6314dee1f")
 	)
 	(junction
-		(at 20.32 22.86)
+		(at 33.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f2edb5-b1b6-482f-b860-53961c5ccba9")
+	)
+	(junction
+		(at 121.92 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "580adc24-757b-4a1a-b699-0dbbae0acc31")
 	)
 	(junction
 		(at 279.4 170.18)
@@ -5952,22 +5964,22 @@
 		(uuid "5ffc4f1a-953a-4368-bc75-1d5bf1ade565")
 	)
 	(junction
-		(at 190.5 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69bde0b6-904a-484b-a04d-9a9050d7dc40")
-	)
-	(junction
-		(at 20.32 20.32)
+		(at 33.02 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69cb0080-239f-423f-9dc9-11b57dfcf7c6")
 	)
 	(junction
-		(at 111.76 157.48)
+		(at 118.11 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c4325da-f1ef-4754-bfa7-f075480558df")
+		(uuid "6fcf6e40-43e4-4685-8ae5-9f4fdf4b32dc")
+	)
+	(junction
+		(at 194.31 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714326ff-6c04-4787-a173-c2cfa73ce12b")
 	)
 	(junction
 		(at 289.56 200.66)
@@ -5982,25 +5994,13 @@
 		(uuid "7caa4f48-23e5-4d57-8ecb-63c1f794ec29")
 	)
 	(junction
-		(at 109.22 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cbe1e32-d736-41aa-9e33-bfdf3ad8e88d")
-	)
-	(junction
 		(at 289.56 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894fe456-d885-49ca-96a1-47e63dcf1995")
 	)
 	(junction
-		(at 50.8 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e5d4155-228e-460b-b9d9-b75c12b3e873")
-	)
-	(junction
-		(at 38.1 22.86)
+		(at 50.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c71c39d-7f7e-40d9-83da-340377117c3e")
@@ -6018,22 +6018,16 @@
 		(uuid "9e1882d6-766e-4b58-8f21-1f8ca0387369")
 	)
 	(junction
-		(at 68.58 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0f61d86-e6af-4394-9136-676572144d6b")
-	)
-	(junction
 		(at 208.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a1d84a-6699-46ef-8767-932e99dffc04")
 	)
 	(junction
-		(at 88.9 157.48)
+		(at 132.08 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c742ada6-7a74-47be-9f38-33f25282351f")
+		(uuid "c3105a1c-f125-49bb-8d99-a1352c1baf79")
 	)
 	(junction
 		(at 139.7 129.54)
@@ -6042,13 +6036,19 @@
 		(uuid "d040faa8-56f9-4db3-843e-bf87881bd937")
 	)
 	(junction
-		(at 124.46 157.48)
+		(at 140.97 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d13d98d6-3db3-478a-a7db-9fbb3815e00c")
+		(uuid "d1f6f001-df38-4f1d-88ca-f612e87655b0")
 	)
 	(junction
-		(at 109.22 22.86)
+		(at 102.87 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4399bfe-db71-4ef4-9160-6e015d0d7d9a")
+	)
+	(junction
+		(at 121.92 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2384796-2d23-4c6c-930f-2cf220fce0e2")
@@ -6066,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 45.72)
+			(xy 194.31 55.88) (xy 194.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6087,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 15.24) (xy 109.22 20.32)
+			(xy 121.92 36.83) (xy 121.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6108,7 +6108,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 99.06 33.02)
+			(xy 27.94 157.48) (xy 35.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0501f915-f5c3-415e-bc3c-0ec0f67f2d98")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 111.76 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6118,7 +6128,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 35.56) (xy 149.86 30.48)
+			(xy 156.21 40.64) (xy 156.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6138,7 +6148,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 162.56) (xy 124.46 157.48)
+			(xy 118.11 162.56) (xy 118.11 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6148,7 +6158,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 60.96 48.26)
+			(xy 73.66 67.31) (xy 73.66 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6158,7 +6168,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 116.84)
+			(xy 132.08 152.4) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6168,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 53.34) (xy 20.32 48.26)
+			(xy 33.02 74.93) (xy 33.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6197,6 +6207,16 @@
 		)
 		(uuid "0e70bac0-6a2c-4256-a78b-5e2d4444deb3")
 	)
+	(wire
+		(pts
+			(xy 194.31 154.94) (xy 228.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efd3134-f2db-4926-9ad2-475003f26c8d")
+	)
 	(polyline
 		(pts
 			(xy 215.9 5.08) (xy 215.9 0)
@@ -6221,23 +6241,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 149.86 144.78)
+			(xy 154.94 129.54) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1227bc8e-bbb5-40d7-9df6-47ceb9a9d97f")
-	)
-	(wire
-		(pts
-			(xy 124.46 157.48) (xy 132.08 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130e7382-ab72-42ec-b49e-589721cd837e")
 	)
 	(wire
 		(pts
@@ -6251,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 68.58) (xy 149.86 63.5)
+			(xy 156.21 73.66) (xy 156.21 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6272,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 38.1 22.86)
+			(xy 43.18 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6335,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 109.22 22.86)
+			(xy 111.76 44.45) (xy 121.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6345,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 33.02) (xy 187.96 30.48)
+			(xy 194.31 38.1) (xy 194.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6362,6 +6372,16 @@
 			(type default)
 		)
 		(uuid "188189c8-f67e-491b-9d9a-479bb3184843")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 87.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9e3cae-5de4-41e5-8a0f-44683bbcef5b")
 	)
 	(polyline
 		(pts
@@ -6397,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 22.86) (xy 20.32 27.94)
+			(xy 33.02 44.45) (xy 33.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6407,13 +6427,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 99.06 142.24)
+			(xy 91.44 142.24) (xy 93.98 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "227d5479-f446-4bbb-b2fb-d6c6070543e6")
+	)
+	(wire
+		(pts
+			(xy 132.08 157.48) (xy 140.97 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f2d3ad-92a0-437d-9175-79cc58f08e71")
 	)
 	(polyline
 		(pts
@@ -6450,7 +6480,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 30.48 22.86)
+			(xy 43.18 49.53) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6490,7 +6520,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 38.1 33.02)
+			(xy 55.88 54.61) (xy 50.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6575,7 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 149.86 167.64)
+			(xy 154.94 165.1) (xy 154.94 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6585,7 +6615,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 22.86) (xy 30.48 22.86)
+			(xy 33.02 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6595,7 +6625,7 @@
 	)
 	(polyline
 		(pts
-			(xy 27.94 25.4) (xy 33.02 38.1)
+			(xy 40.64 46.99) (xy 45.72 59.69)
 		)
 		(stroke
 			(width 0.508)
@@ -6613,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "3b47a3f6-fa52-46b9-b283-389e06391c74")
+	)
+	(wire
+		(pts
+			(xy 132.08 162.56) (xy 132.08 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2995e0-c7d6-4080-ac88-68ca1d994010")
 	)
 	(wire
 		(pts
@@ -6636,16 +6676,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 154.94) (xy 165.1 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407ec4c2-463a-4993-9127-72c9bc15e151")
-	)
-	(wire
-		(pts
 			(xy 68.58 157.48) (xy 66.04 157.48)
 		)
 		(stroke
@@ -6656,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 177.8) (xy 111.76 172.72)
+			(xy 102.87 177.8) (xy 102.87 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6666,7 +6696,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 38.1 162.56)
+			(xy 27.94 162.56) (xy 30.48 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6676,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 142.24) (xy 81.28 142.24)
+			(xy 73.66 142.24) (xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6686,7 +6716,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 101.6) (xy 129.54 114.3)
+			(xy 129.54 101.6) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0.508)
@@ -6697,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 109.22 38.1)
+			(xy 121.92 54.61) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6707,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 149.86) (xy 109.22 157.48)
+			(xy 102.87 149.86) (xy 102.87 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 15.24) (xy 20.32 20.32)
+			(xy 33.02 36.83) (xy 33.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6748,17 +6778,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 157.48) (xy 50.8 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4db0bf31-4283-4435-a629-9c6864b7713b")
-	)
-	(wire
-		(pts
-			(xy 187.96 15.24) (xy 187.96 17.78)
+			(xy 194.31 20.32) (xy 194.31 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6778,7 +6798,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 149.86 129.54)
+			(xy 139.7 129.54) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6799,16 +6819,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 111.76 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f6f4fe-08c5-4c39-baa2-8422416b752b")
-	)
-	(wire
-		(pts
 			(xy 383.54 78.74) (xy 355.6 78.74)
 		)
 		(stroke
@@ -6826,6 +6836,16 @@
 			(type default)
 		)
 		(uuid "547adb50-35d0-400b-aacd-979809e31daa")
+	)
+	(wire
+		(pts
+			(xy 118.11 157.48) (xy 119.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a3d6c3-4d98-4763-b277-7d1821559546")
 	)
 	(wire
 		(pts
@@ -6850,16 +6870,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57694def-faf8-493b-a575-0a4d6485704a")
-	)
-	(wire
-		(pts
 			(xy 139.7 132.08) (xy 139.7 129.54)
 		)
 		(stroke
@@ -6880,7 +6890,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 15.24) (xy 149.86 17.78)
+			(xy 156.21 20.32) (xy 156.21 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6909,17 +6919,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "5e4dfacf-d21c-4008-a4b3-4e06e0059682")
-	)
-	(polyline
-		(pts
-			(xy 121.92 160.02) (xy 127 172.72)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "5eb3295c-7da2-4535-8f70-76fbe3398ac1")
 	)
 	(polyline
 		(pts
@@ -7027,6 +7026,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 154.94) (xy 173.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6595d88f-f5fc-42c9-9f5e-a1fc1164d9b9")
+	)
+	(wire
+		(pts
 			(xy 289.56 170.18) (xy 279.4 170.18)
 		)
 		(stroke
@@ -7048,7 +7057,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 30.48 43.18)
+			(xy 43.18 57.15) (xy 43.18 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7079,7 +7088,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 127 101.6)
+			(xy 132.08 99.06) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7089,17 +7098,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 154.94) (xy 228.6 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8d89e8-0e46-4697-a03c-4aa7d5fa8151")
-	)
-	(wire
-		(pts
-			(xy 124.46 177.8) (xy 124.46 170.18)
+			(xy 118.11 177.8) (xy 118.11 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7150,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 154.94) (xy 185.42 154.94)
+			(xy 186.69 154.94) (xy 189.23 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7167,6 +7166,16 @@
 			(type default)
 		)
 		(uuid "727a27d6-2264-4dba-a28e-1df1fd2b7338")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7301e408-a964-418a-9034-eb76c90945c4")
 	)
 	(polyline
 		(pts
@@ -7191,7 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 78.74 22.86)
+			(xy 111.76 44.45) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7223,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 172.72) (xy 185.42 167.64)
+			(xy 189.23 172.72) (xy 189.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7252,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 157.48) (xy 187.96 170.18)
+			(xy 186.69 157.48) (xy 191.77 170.18)
 		)
 		(stroke
 			(width 0.508)
@@ -7298,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 157.48) (xy 88.9 157.48)
+			(xy 80.01 157.48) (xy 83.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7326,16 +7335,6 @@
 			(type default)
 		)
 		(uuid "7fc0e8ab-faf7-4612-a4d2-22094cb92fb5")
-	)
-	(wire
-		(pts
-			(xy 111.76 157.48) (xy 124.46 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffa132e-86a6-4e9c-bb12-eec659a9ef17")
 	)
 	(wire
 		(pts
@@ -7367,16 +7366,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "83031880-b08f-4efa-bf96-2d11d3a8d7c7")
-	)
-	(wire
-		(pts
-			(xy 88.9 157.48) (xy 93.98 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8338b43a-f006-4956-a4ac-64e3d082df7b")
 	)
 	(polyline
 		(pts
@@ -7432,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 20.32) (xy 109.22 22.86)
+			(xy 121.92 41.91) (xy 121.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7473,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 154.94) (xy 190.5 154.94)
+			(xy 189.23 154.94) (xy 194.31 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7494,7 +7483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 5.08 17.272) (xy 76.2 17.272)
+			(xy 15.748 26.289) (xy 86.868 26.289)
 		)
 		(stroke
 			(width 0.254)
@@ -7558,7 +7547,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 22.86) (xy 109.22 25.4)
+			(xy 121.92 44.45) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7568,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 33.02) (xy 38.1 22.86)
+			(xy 50.8 54.61) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7588,7 +7577,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 5.08) (xy 5.08 5.08)
+			(xy 86.868 14.097) (xy 15.748 14.097)
 		)
 		(stroke
 			(width 0.254)
@@ -7663,16 +7652,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 157.48) (xy 139.7 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7f78d11-0abd-4438-a14a-f99558723375")
-	)
-	(wire
-		(pts
 			(xy 198.12 137.16) (xy 198.12 139.7)
 		)
 		(stroke
@@ -7705,7 +7684,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 157.48) (xy 109.22 157.48)
+			(xy 100.33 157.48) (xy 102.87 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 25.4) (xy 99.06 22.86)
+			(xy 111.76 46.99) (xy 111.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7756,13 +7735,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 154.94) (xy 185.42 160.02)
+			(xy 189.23 154.94) (xy 189.23 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afed8301-dc4e-428c-be52-0a0335ad715e")
+	)
+	(wire
+		(pts
+			(xy 140.97 157.48) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b053158f-0ee0-4080-9a01-82ebcd2156e0")
 	)
 	(polyline
 		(pts
@@ -7798,7 +7787,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 50.8) (xy 149.86 48.26)
+			(xy 156.21 55.88) (xy 156.21 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7828,16 +7817,6 @@
 		)
 		(uuid "b4476e4e-97ec-41ce-930c-a0afccf7d784")
 	)
-	(wire
-		(pts
-			(xy 165.1 154.94) (xy 170.18 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52a7702-f106-46c4-8df5-dca5181d75f0")
-	)
 	(polyline
 		(pts
 			(xy 299.72 259.08) (xy 335.28 259.08)
@@ -7860,9 +7839,19 @@
 		)
 		(uuid "b6771c0e-fb44-4881-85af-bf8b1697e85b")
 	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79760f5-311e-4c96-8521-510ae82b698c")
+	)
 	(polyline
 		(pts
-			(xy 5.08 5.08) (xy 5.08 17.272)
+			(xy 15.748 14.097) (xy 15.748 26.289)
 		)
 		(stroke
 			(width 0.254)
@@ -7873,7 +7862,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 20.32) (xy 20.32 22.86)
+			(xy 33.02 41.91) (xy 33.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7883,7 +7872,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 109.22 137.16)
+			(xy 102.87 134.62) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7914,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 22.86) (xy 43.18 22.86)
+			(xy 50.8 44.45) (xy 55.88 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7987,7 +7976,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 127 152.4)
+			(xy 144.78 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8018,7 +8007,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 17.272) (xy 76.2 5.08)
+			(xy 86.868 26.289) (xy 86.868 14.097)
 		)
 		(stroke
 			(width 0.254)
@@ -8029,7 +8018,7 @@
 	)
 	(wire
 		(pts
-			(xy 10.16 20.32) (xy 20.32 20.32)
+			(xy 22.86 41.91) (xy 33.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8039,7 +8028,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 20.32) (xy 127 20.32)
+			(xy 121.92 41.91) (xy 139.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8060,7 +8049,7 @@
 	)
 	(wire
 		(pts
-			(xy 10.16 48.26) (xy 20.32 48.26)
+			(xy 22.86 69.85) (xy 33.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8077,16 +8066,6 @@
 			(type default)
 		)
 		(uuid "cfe33b5a-02d8-4af6-8d15-76b019d4268c")
-	)
-	(wire
-		(pts
-			(xy 88.9 147.32) (xy 88.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20d2e42-28da-4b68-bde8-cea259ddc734")
 	)
 	(wire
 		(pts
@@ -8184,6 +8163,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 147.32) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcb9737-f283-4e64-9e36-2e7508d831de")
+	)
+	(wire
+		(pts
 			(xy 284.48 99.06) (xy 284.48 101.6)
 		)
 		(stroke
@@ -8215,7 +8204,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 157.48) (xy 76.2 157.48)
+			(xy 68.58 157.48) (xy 72.39 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8278,7 +8267,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 48.26) (xy 20.32 35.56)
+			(xy 33.02 69.85) (xy 33.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8288,7 +8277,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 157.48) (xy 111.76 160.02)
+			(xy 102.87 157.48) (xy 102.87 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8361,13 +8350,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 116.84)
+			(xy 132.08 114.3) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0e5948f-ad96-49fe-ade4-936bfb1aa70e")
+	)
+	(wire
+		(pts
+			(xy 132.08 177.8) (xy 132.08 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d83d02-d130-412d-a617-1cbce3d29492")
 	)
 	(wire
 		(pts
@@ -8381,13 +8380,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 162.56) (xy 38.1 170.18)
+			(xy 30.48 162.56) (xy 30.48 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4d17856-a617-43f1-a6da-1cd369fa19e4")
+	)
+	(wire
+		(pts
+			(xy 102.87 157.48) (xy 105.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58fe574-f449-44ba-bc76-973581c40796")
 	)
 	(wire
 		(pts
@@ -13093,10 +13102,10 @@
 		(uuid "063b11d3-215d-4b89-b1bf-62de2c4add24")
 	)
 	(label "PREAMP_IN"
-		(at 114.3 157.48 0)
+		(at 132.08 157.48 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.8 0.8)
 			)
 			(justify left bottom)
 		)
@@ -13163,7 +13172,7 @@
 		(uuid "52eb2681-0747-4615-aec1-edf0c4152225")
 	)
 	(label "PIEZO_IN"
-		(at 38.1 157.48 0)
+		(at 27.94 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13253,7 +13262,7 @@
 		(uuid "ec06b8e4-a0c2-47fc-b711-c34c2e027de4")
 	)
 	(label "ADC_IN"
-		(at 200.66 154.94 0)
+		(at 204.47 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13296,7 +13305,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "9774020960"
+		(property "Footprint" "Piezo_Footprints:9774020960"
 			(at 55.88 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -13502,7 +13511,7 @@
 	(symbol
 		(lib_name "root_1_RES-2_Maven Robotics_0_1")
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 187.96 30.48 180)
+		(at 194.31 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13512,7 +13521,7 @@
 		(dnp no)
 		(uuid "090403e1-a005-49d1-997e-29ae1f28525a")
 		(property "Reference" "R11"
-			(at 188.976 22.606 0)
+			(at 195.326 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13523,7 +13532,7 @@
 			)
 		)
 		(property "Value" "Res_100R_1%_63mW_0402"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13534,8 +13543,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 187.96 30.48 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 194.31 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,7 +13555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 30.48 0)
+			(at 194.31 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13557,7 +13566,7 @@
 			)
 		)
 		(property "Description" "Fixed Resistor, Metal Glaze/thick Film, 0.063W, 100ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-			(at 187.96 30.48 0)
+			(at 194.31 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13568,7 +13577,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 200.66 30.988 90)
+			(at 207.01 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13579,7 +13588,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 198.12 30.988 90)
+			(at 204.47 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13590,7 +13599,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 195.58 30.988 90)
+			(at 201.93 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13601,7 +13610,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 193.04 30.988 90)
+			(at 199.39 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13612,7 +13621,7 @@
 			)
 		)
 		(property "POWER" "63mW"
-			(at 188.976 27.686 0)
+			(at 195.326 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13623,7 +13632,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13635,7 +13644,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13647,7 +13656,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13659,7 +13668,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,7 +13680,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 188.976 30.226 0)
+			(at 195.326 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13682,7 +13691,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13694,7 +13703,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,7 +13715,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13718,7 +13727,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,7 +13739,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000016"
-			(at 186.944 17.272 0)
+			(at 193.294 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,7 +13751,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 188.976 32.766 0)
+			(at 195.326 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13753,7 +13762,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100"
-			(at 188.976 25.146 0)
+			(at 195.326 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13854,7 +13863,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_CAP-NP-2_Maven Robotics")
-		(at 20.32 35.56 180)
+		(at 33.02 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13864,7 +13873,7 @@
 		(dnp no)
 		(uuid "0e89f7dd-f639-4d0c-b3c7-b1f3a0258dcd")
 		(property "Reference" "C3"
-			(at 22.606 32.766 0)
+			(at 35.306 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13875,7 +13884,7 @@
 			)
 		)
 		(property "Value" "Cap_1uF_10%_10V_0402"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,8 +13895,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 20.32 35.56 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 33.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13898,7 +13907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 35.56 0)
+			(at 33.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13909,7 +13918,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, Ceramic, 10V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0402"
-			(at 20.32 35.56 0)
+			(at 33.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +13929,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000094"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13932,7 +13941,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13944,7 +13953,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13956,7 +13965,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,7 +13977,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13980,7 +13989,7 @@
 			)
 		)
 		(property "AEC-Q" "No"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13992,7 +14001,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 22.606 37.846 0)
+			(at 35.306 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14003,7 +14012,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "10V"
-			(at 22.606 40.386 0)
+			(at 35.306 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14014,7 +14023,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14026,7 +14035,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +14047,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1µF"
-			(at 22.606 35.306 0)
+			(at 35.306 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14049,7 +14058,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 22.606 42.926 0)
+			(at 35.306 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14060,7 +14069,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +14081,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14084,7 +14093,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,7 +14105,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 18.034 27.432 0)
+			(at 30.734 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14124,7 +14133,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_AMP-3_Maven Robotics")
-		(at 144.78 149.86 90)
+		(at 149.86 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14134,7 +14143,7 @@
 		(dnp no)
 		(uuid "121afd84-6322-44ed-a3c3-2b2868a6c778")
 		(property "Reference" "U4"
-			(at 154.94 160.02 90)
+			(at 160.02 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14145,7 +14154,7 @@
 			)
 		)
 		(property "Value" "IC_OPAMP_1MHz_TLV9001IDBVR_1AMP_SOT-23-5"
-			(at 137.16 180.34 90)
+			(at 147.828 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14155,8 +14164,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOT23-5"
-			(at 144.78 149.86 0)
+		(property "Footprint" "Piezo_Footprints:SOT23-5"
+			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14167,7 +14176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 149.86 0)
+			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14178,7 +14187,7 @@
 			)
 		)
 		(property "Description" "IC CMOS 1 CIRCUIT SOT23-5 CMOS Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
-			(at 144.78 149.86 0)
+			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14189,7 +14198,7 @@
 			)
 		)
 		(property "OUTPUT TYPE" "Push-Pull"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14201,7 +14210,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +14222,7 @@
 			)
 		)
 		(property "MASS (G)" "0.0322"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,7 +14234,7 @@
 			)
 		)
 		(property "PINS" "5"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14246,7 @@
 			)
 		)
 		(property "MFG1" "TI"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14249,7 +14258,7 @@
 			)
 		)
 		(property "MPN1" "TLV9001IDBVR"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,7 +14270,7 @@
 			)
 		)
 		(property "MAX SUPPLY VOLTAGE" "5.5V"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14273,7 +14282,7 @@
 			)
 		)
 		(property "CHANNELS" "1"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14285,7 +14294,7 @@
 			)
 		)
 		(property "NOMINAL SUPPLY VOLTAGE" ""
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14297,7 +14306,7 @@
 			)
 		)
 		(property "FREQUENCY" "1MHz"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14309,7 +14318,7 @@
 			)
 		)
 		(property "NOMINAL DUAL SUPPLY" ""
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14321,7 +14330,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14333,7 +14342,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000277"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14345,7 +14354,7 @@
 			)
 		)
 		(property "POWER" ""
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,7 +14366,7 @@
 			)
 		)
 		(property "MIN SUPPLY VOLTAGE" "1.8V"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14369,7 +14378,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14381,7 +14390,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14393,7 +14402,7 @@
 			)
 		)
 		(property "NOMINAL GAIN BANDWIDTH PRODUCT" "1MHz"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14405,7 +14414,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "SOT-23-5"
-			(at 139.192 144.272 90)
+			(at 144.272 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +14451,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 149.86 68.58 0)
+		(at 156.21 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14452,7 +14461,7 @@
 		(dnp no)
 		(uuid "1268bc7b-b6c3-44b5-986b-beb7a5d230c1")
 		(property "Reference" "#PWR023"
-			(at 149.86 68.58 0)
+			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14463,7 +14472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 74.93 0)
+			(at 156.21 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14473,7 +14482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 68.58 0)
+			(at 156.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14483,7 +14492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 68.58 0)
+			(at 156.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14493,7 +14502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 68.58 0)
+			(at 156.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14548,7 +14557,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 119.38 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +14673,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 109.22 149.86 180)
+		(at 102.87 149.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14674,7 +14683,7 @@
 		(dnp no)
 		(uuid "16b71535-1164-4fad-8dbd-7ef28cc95d3d")
 		(property "Reference" "R3"
-			(at 110.236 141.986 0)
+			(at 103.886 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14685,7 +14694,7 @@
 			)
 		)
 		(property "Value" "Res_3M9_1%_63mW_0402"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14696,8 +14705,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 109.22 149.86 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 102.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14708,7 +14717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 149.86 0)
+			(at 102.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14719,7 +14728,7 @@
 			)
 		)
 		(property "Description" "Resistor, 3.9M ohm, 1%, Thicj Film, 63mW, 0402"
-			(at 109.22 149.86 0)
+			(at 102.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,7 +14739,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 121.92 150.368 90)
+			(at 115.57 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14741,7 +14750,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 119.38 150.368 90)
+			(at 113.03 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14752,7 +14761,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 116.84 150.368 90)
+			(at 110.49 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14763,7 +14772,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 114.3 150.368 90)
+			(at 107.95 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14774,7 +14783,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14786,7 +14795,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000330"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14798,7 +14807,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14810,7 +14819,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14822,7 +14831,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14834,7 +14843,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14846,7 +14855,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,7 +14867,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14870,7 +14879,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 108.204 136.652 0)
+			(at 101.854 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14882,7 +14891,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "3.9M"
-			(at 110.236 144.526 0)
+			(at 103.886 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14942,7 +14951,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
 			(at 208.28 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15254,7 +15263,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 20.32 53.34 0)
+		(at 33.02 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15264,7 +15273,7 @@
 		(dnp no)
 		(uuid "2be43836-b933-447f-8273-ce99502d52d2")
 		(property "Reference" "#PWR03"
-			(at 20.32 53.34 0)
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15275,7 +15284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 59.69 0)
+			(at 33.02 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15285,7 +15294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 53.34 0)
+			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15295,7 +15304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 53.34 0)
+			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15305,7 +15314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 53.34 0)
+			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15402,7 +15411,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 187.96 50.8 0)
+		(at 194.31 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15412,7 +15421,7 @@
 		(dnp no)
 		(uuid "2f631cd0-849f-4934-bb48-3af63172a61b")
 		(property "Reference" "#PWR027"
-			(at 187.96 50.8 0)
+			(at 194.31 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15423,7 +15432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 57.15 0)
+			(at 194.31 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15433,7 +15442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 50.8 0)
+			(at 194.31 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15443,7 +15452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 50.8 0)
+			(at 194.31 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15453,7 +15462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 50.8 0)
+			(at 194.31 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15476,7 +15485,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
-		(at 109.22 134.62 180)
+		(at 102.87 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15486,7 +15495,7 @@
 		(dnp no)
 		(uuid "326742c9-1d08-4bc6-ae2d-9a375bbad4db")
 		(property "Reference" "#PWR016"
-			(at 109.22 134.62 0)
+			(at 102.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15497,7 +15506,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 109.22 130.81 0)
+			(at 102.87 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15507,7 +15516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 134.62 0)
+			(at 102.87 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15517,7 +15526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 134.62 0)
+			(at 102.87 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15527,7 +15536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 134.62 0)
+			(at 102.87 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15550,7 +15559,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 60.96 48.26 0)
+		(at 73.66 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15560,7 +15569,7 @@
 		(dnp no)
 		(uuid "38bdce1a-3705-4d63-941f-1494fbd2bb73")
 		(property "Reference" "#PWR09"
-			(at 60.96 48.26 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15571,7 +15580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 54.61 0)
+			(at 73.66 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15581,7 +15590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 48.26 0)
+			(at 73.66 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15591,7 +15600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 48.26 0)
+			(at 73.66 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15601,7 +15610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 48.26 0)
+			(at 73.66 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15617,6 +15626,251 @@
 			(project "Piezo_ADC"
 				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_RES-2_Maven Robotics_0")
+		(at 119.38 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "398901a6-f5a7-491b-a372-edf578fb4b8d")
+		(property "Reference" "R14"
+			(at 122.936 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res_2.26kR0_1%_63mW_0402"
+			(at 121.666 161.036 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 119.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Metal Glaze/thick Film, 0.063W, 0ohm, Surface Mount, 0402"
+			(at 119.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARAMETER 4" ""
+			(at 118.872 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 3" ""
+			(at 118.872 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 2" ""
+			(at 118.872 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 1" ""
+			(at 118.872 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000039"
+			(at 118.872 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Surface Mount"
+			(at 118.872 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.26K"
+			(at 122.428 159.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 118.872 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 118.872 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PINS" "2"
+			(at 118.872 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AEC-Q" "Yes"
+			(at 118.872 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "50V"
+			(at 118.872 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MASS (G)" "650µg"
+			(at 118.872 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "155°C"
+			(at 118.872 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a39e17db-0a55-4a7a-bcd0-5733f1d67610")
+		)
+		(pin "2"
+			(uuid "26c423eb-ae23-4b9c-9508-db5f7f2decd8")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -15698,7 +15952,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 38.1 170.18 0)
+		(at 30.48 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15708,7 +15962,7 @@
 		(dnp no)
 		(uuid "4419e34b-6fd6-496d-aae8-4b5655b7d1f1")
 		(property "Reference" "#PWR05"
-			(at 38.1 170.18 0)
+			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15719,7 +15973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 176.53 0)
+			(at 30.48 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15729,7 +15983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 170.18 0)
+			(at 30.48 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15739,7 +15993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 170.18 0)
+			(at 30.48 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15749,7 +16003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 170.18 0)
+			(at 30.48 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15772,7 +16026,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 185.42 172.72 0)
+		(at 189.23 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15782,7 +16036,7 @@
 		(dnp no)
 		(uuid "44a0a308-e9a4-4beb-82e1-df88aa40f8d6")
 		(property "Reference" "#PWR025"
-			(at 185.42 172.72 0)
+			(at 189.23 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +16047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 179.07 0)
+			(at 189.23 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15803,7 +16057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 172.72 0)
+			(at 189.23 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15813,7 +16067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 172.72 0)
+			(at 189.23 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15823,7 +16077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 172.72 0)
+			(at 189.23 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15878,7 +16132,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
 			(at 289.56 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -15997,7 +16251,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_MIC5365_Maven Robotics")
-		(at 60.96 27.94 90)
+		(at 73.66 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16007,7 +16261,7 @@
 		(dnp no)
 		(uuid "4ed695a0-d25d-49c5-9eb0-03c25a17e4ec")
 		(property "Reference" "U1"
-			(at 50.8 20.32 90)
+			(at 63.5 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16018,7 +16272,7 @@
 			)
 		)
 		(property "Value" "IC_LDO_FIXED_3.3V_SC-70-5"
-			(at 63.5 45.72 90)
+			(at 76.2 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16028,8 +16282,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOT23-5"
-			(at 60.96 27.94 0)
+		(property "Footprint" "Piezo_Footprints:SOT23-5"
+			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16040,7 +16294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 27.94 0)
+			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16051,7 +16305,7 @@
 			)
 		)
 		(property "Description" "IC, LDO, Fixed output, 3.3V out, , 5.5V input, 0.31V Dropout, SC-70-5"
-			(at 60.96 27.94 0)
+			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16062,7 +16316,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16328,7 @@
 			)
 		)
 		(property "MAX SUPPLY VOLTAGE" "5.5V"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16086,7 +16340,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16098,7 +16352,7 @@
 			)
 		)
 		(property "MIN SUPPLY VOLTAGE" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16110,7 +16364,7 @@
 			)
 		)
 		(property "PINS" "5"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16122,7 +16376,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16134,7 +16388,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000331"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16146,7 +16400,7 @@
 			)
 		)
 		(property "FREQUENCY" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16158,7 +16412,7 @@
 			)
 		)
 		(property "NOMINAL SUPPLY CURRENT" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16170,7 +16424,7 @@
 			)
 		)
 		(property "OUTPUT VOLTAGE" "3.3V"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16182,7 +16436,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "TSSOP"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,7 +16448,7 @@
 			)
 		)
 		(property "DROPOUT VOLTAGE" "310mV"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16206,7 +16460,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16218,7 +16472,7 @@
 			)
 		)
 		(property "OUTPUT CURRENT" "150mA"
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16230,7 +16484,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 42.672 20.32 90)
+			(at 55.372 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16341,7 +16595,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_CAP-NP-2_Maven Robotics")
-		(at 99.06 33.02 180)
+		(at 111.76 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16351,7 +16605,7 @@
 		(dnp no)
 		(uuid "529762c6-36a5-4a44-a26d-cefba94299e1")
 		(property "Reference" "C1"
-			(at 101.346 30.226 0)
+			(at 114.046 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16362,7 +16616,7 @@
 			)
 		)
 		(property "Value" "Cap_1uF_10%_10V_0402"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,8 +16627,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 99.06 33.02 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 111.76 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16385,7 +16639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 33.02 0)
+			(at 111.76 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16396,7 +16650,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, Ceramic, 10V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0402"
-			(at 99.06 33.02 0)
+			(at 111.76 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16407,7 +16661,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000094"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16419,7 +16673,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16431,7 +16685,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16443,7 +16697,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16455,7 +16709,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16467,7 +16721,7 @@
 			)
 		)
 		(property "AEC-Q" "No"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16479,7 +16733,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 101.346 35.306 0)
+			(at 114.046 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16490,7 +16744,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "10V"
-			(at 101.346 37.846 0)
+			(at 114.046 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16501,7 +16755,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16513,7 +16767,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16525,7 +16779,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1µF"
-			(at 101.346 32.766 0)
+			(at 114.046 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16536,7 +16790,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 101.346 40.386 0)
+			(at 114.046 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16547,7 +16801,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16559,7 +16813,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16571,7 +16825,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16583,7 +16837,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 96.774 24.892 0)
+			(at 109.474 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16791,7 +17045,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
 			(at 289.56 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16942,7 +17196,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
 			(at 287.02 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +17315,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_RES-2_Maven Robotics_0")
-		(at 93.98 157.48 90)
+		(at 87.63 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17071,7 +17325,7 @@
 		(dnp no)
 		(uuid "642436e3-d4c1-4080-8aa7-c506e9bf1df5")
 		(property "Reference" "R6"
-			(at 96.012 153.67 90)
+			(at 92.456 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17082,7 +17336,7 @@
 			)
 		)
 		(property "Value" "Res_0R0_1%_63mW_0402"
-			(at 96.266 161.036 90)
+			(at 89.916 161.036 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17093,8 +17347,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 93.98 157.48 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 87.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17105,7 +17359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 157.48 0)
+			(at 87.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17116,7 +17370,7 @@
 			)
 		)
 		(property "Description" "Metal Glaze/thick Film, 0.063W, 0ohm, Surface Mount, 0402"
-			(at 93.98 157.48 0)
+			(at 87.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17127,7 +17381,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 93.472 170.18 90)
+			(at 87.122 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17138,7 +17392,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 93.472 167.64 90)
+			(at 87.122 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17149,7 +17403,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 93.472 165.1 90)
+			(at 87.122 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17160,7 +17414,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 93.472 162.56 90)
+			(at 87.122 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17171,7 +17425,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000039"
-			(at 93.472 153.924 90)
+			(at 87.122 153.924 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17183,7 +17437,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 93.472 153.924 90)
+			(at 87.122 153.924 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17195,7 +17449,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0"
-			(at 96.266 161.036 90)
+			(at 93.218 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17206,7 +17460,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 93.472 148.844 90)
+			(at 87.122 148.844 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17218,7 +17472,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 93.472 148.844 90)
+			(at 87.122 148.844 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,7 +17484,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 93.472 143.764 90)
+			(at 87.122 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17242,7 +17496,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 93.472 143.764 90)
+			(at 87.122 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17254,7 +17508,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 93.472 143.764 90)
+			(at 87.122 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17266,7 +17520,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 93.472 143.764 90)
+			(at 87.122 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17278,7 +17532,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 93.472 143.764 90)
+			(at 87.122 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +17591,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOIC-8"
+		(property "Footprint" "Piezo_Footprints:SOIC-8"
 			(at 299.72 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17569,7 +17823,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "9774020960"
+		(property "Footprint" "Piezo_Footprints:9774020960"
 			(at 45.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -17710,7 +17964,7 @@
 		(dnp no)
 		(uuid "6727681a-3880-4a95-89c2-f9eaf17967ca")
 		(property "Reference" "R5"
-			(at 55.626 156.464 90)
+			(at 58.42 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17732,7 +17986,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
+		(property "Footprint" "Piezo_Footprints:RES_0402"
 			(at 53.34 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17834,7 +18088,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0"
-			(at 55.626 161.036 90)
+			(at 58.928 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17977,7 +18231,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
+		(property "Footprint" "Piezo_Footprints:RES_0402"
 			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18190,7 +18444,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 30.48 43.18 0)
+		(at 43.18 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18200,7 +18454,7 @@
 		(dnp no)
 		(uuid "69707046-c027-49db-9127-c13f699d85b0")
 		(property "Reference" "#PWR04"
-			(at 30.48 43.18 0)
+			(at 43.18 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18211,7 +18465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 49.53 0)
+			(at 43.18 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18221,7 +18475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 43.18 0)
+			(at 43.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18231,7 +18485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 43.18 0)
+			(at 43.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18241,7 +18495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 43.18 0)
+			(at 43.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18264,7 +18518,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 127 99.06 180)
+		(at 132.08 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18274,7 +18528,7 @@
 		(dnp no)
 		(uuid "6ab7132e-0725-44a0-9729-ab198736a9cc")
 		(property "Reference" "#PWR019"
-			(at 127 99.06 0)
+			(at 132.08 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18285,7 +18539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 92.71 0)
+			(at 132.08 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18295,7 +18549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 99.06 0)
+			(at 132.08 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18305,7 +18559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 99.06 0)
+			(at 132.08 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18315,7 +18569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 99.06 0)
+			(at 132.08 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18413,7 +18667,7 @@
 	(symbol
 		(lib_name "root_1_CAP-NP-2_Maven Robotics_1")
 		(lib_id "Maven Robotics:root_1_CAP-NP-2_Maven Robotics")
-		(at 30.48 35.56 180)
+		(at 43.18 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18423,7 +18677,7 @@
 		(dnp no)
 		(uuid "71870063-42da-4414-9f1f-aea1e570a2e3")
 		(property "Reference" "C4"
-			(at 32.766 32.766 0)
+			(at 45.466 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18434,7 +18688,7 @@
 			)
 		)
 		(property "Value" "Cap_0.1uF_10%_16V_0402"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18445,8 +18699,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 30.48 35.56 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18457,7 +18711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 35.56 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18468,7 +18722,7 @@
 			)
 		)
 		(property "Description" "Capacitor, 0.1uF, 10% tolerance, 16V, 0402 Package."
-			(at 30.48 35.56 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18479,7 +18733,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18491,7 +18745,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18503,7 +18757,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "-40°C"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18515,7 +18769,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 32.766 37.846 0)
+			(at 45.466 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18526,7 +18780,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18538,7 +18792,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000003"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18550,7 +18804,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "16V"
-			(at 32.766 40.386 0)
+			(at 45.466 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18561,7 +18815,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18573,7 +18827,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18584,8 +18838,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 32.766 35.306 0)
+		(property "ALTIUM_VALUE" "0.1uF"
+			(at 45.466 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18596,7 +18850,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "125°C"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18608,7 +18862,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18620,7 +18874,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18632,7 +18886,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18644,7 +18898,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 32.766 42.926 0)
+			(at 45.466 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18655,7 +18909,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "<Yes>, <No>"
-			(at 28.194 27.432 0)
+			(at 40.894 49.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18716,7 +18970,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
 			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18855,7 +19109,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
+		(property "ALTIUM_VALUE" "0.1uF"
 			(at 141.986 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18954,7 +19208,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_3_LED-GREEN-KA-2_Maven Robotics")
-		(at 190.5 38.1 0)
+		(at 196.85 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18964,7 +19218,7 @@
 		(dnp no)
 		(uuid "803a7c0d-0376-4df1-9e0e-736ff144d315")
 		(property "Reference" "DS2"
-			(at 193.548 40.386 0)
+			(at 199.898 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18975,7 +19229,7 @@
 			)
 		)
 		(property "Value" "LED_Green_20mA_0402"
-			(at 193.548 42.926 0)
+			(at 199.898 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18985,8 +19239,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_0402_Green_KA"
-			(at 190.5 38.1 0)
+		(property "Footprint" "Piezo_Footprints:LED_0402_Green_KA"
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18997,7 +19251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 38.1 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19008,7 +19262,7 @@
 			)
 		)
 		(property "Description" "LED, Green, 2.1V, 20mA, AlGaInP, 0402, Kingbright APHHS1005CGCK"
-			(at 190.5 38.1 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19019,7 +19273,7 @@
 			)
 		)
 		(property "COLOUR" "Green"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19031,7 +19285,7 @@
 			)
 		)
 		(property "MASS (G)" "0.015"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19043,7 +19297,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" "20mA"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19055,7 +19309,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" "75mW"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19067,7 +19321,7 @@
 			)
 		)
 		(property "NOMINAL VF" "2.1V"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19079,7 +19333,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19091,7 +19345,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" "2.1V"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19103,7 +19357,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19115,7 +19369,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19127,7 +19381,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19139,7 +19393,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19151,7 +19405,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19163,7 +19417,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000315"
-			(at 185.166 32.512 0)
+			(at 191.516 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19191,7 +19445,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 111.76 177.8 0)
+		(at 132.08 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19199,9 +19453,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83267484-0cc3-4f50-8554-bf4420da4f62")
-		(property "Reference" "#PWR017"
-			(at 111.76 177.8 0)
+		(uuid "8119f494-782c-4a4c-98fc-d9174a495f59")
+		(property "Reference" "#PWR044"
+			(at 132.08 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19212,7 +19466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 184.15 0)
+			(at 132.08 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19222,7 +19476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 177.8 0)
+			(at 132.08 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19232,7 +19486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 177.8 0)
+			(at 132.08 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19242,7 +19496,81 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 177.8 0)
+			(at 132.08 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bb0e8e7f-e7a6-4009-adc2-b7bd16b49b88")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 102.87 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83267484-0cc3-4f50-8554-bf4420da4f62")
+		(property "Reference" "#PWR017"
+			(at 102.87 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19265,7 +19593,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
-		(at 10.16 48.26 90)
+		(at 22.86 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19275,7 +19603,7 @@
 		(dnp no)
 		(uuid "86288de2-e4e1-4443-af06-8faa0d98800a")
 		(property "Reference" "TP1"
-			(at 9.017 51.943 90)
+			(at 21.717 73.533 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19286,7 +19614,7 @@
 			)
 		)
 		(property "Value" "TPAD6R"
-			(at 17.78 50.8 90)
+			(at 30.48 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19297,8 +19625,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
-			(at 10.16 48.26 0)
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
+			(at 22.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19309,7 +19637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 10.16 48.26 0)
+			(at 22.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19320,7 +19648,7 @@
 			)
 		)
 		(property "Description" "0.6mm round"
-			(at 10.16 48.26 0)
+			(at 22.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19331,7 +19659,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19343,7 +19671,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19355,7 +19683,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19367,7 +19695,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19379,7 +19707,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19391,7 +19719,7 @@
 			)
 		)
 		(property "PINS" "1"
-			(at 9.017 45.72 90)
+			(at 21.717 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19447,7 +19775,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOT-23-6"
+		(property "Footprint" "Piezo_Footprints:SOT-23-6"
 			(at 233.68 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19665,7 +19993,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CAP-NP-2_Maven Robotics")
-		(at 76.2 157.48 90)
+		(at 72.39 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19675,7 +20003,7 @@
 		(dnp no)
 		(uuid "867b6aee-5129-4ca2-b31b-32f8e06e4c1c")
 		(property "Reference" "C9"
-			(at 78.486 155.194 90)
+			(at 74.93 153.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19686,7 +20014,7 @@
 			)
 		)
 		(property "Value" "Cap_22uF_20%_10V_0805"
-			(at 78.486 162.306 90)
+			(at 74.676 162.306 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19697,8 +20025,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0805_1.45mm_Height"
-			(at 76.2 157.48 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0805_1.45mm_Height"
+			(at 72.39 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19709,7 +20037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 157.48 0)
+			(at 72.39 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19720,7 +20048,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, Ceramic, 10V, 20% +Tol, 20% -Tol, X7R, 15% TC, 22uF, Surface Mount, 0805"
-			(at 76.2 157.48 0)
+			(at 72.39 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19731,7 +20059,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "22µF"
-			(at 78.486 162.306 90)
+			(at 77.47 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19742,7 +20070,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 78.486 164.846 90)
+			(at 77.47 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19753,7 +20081,7 @@
 			)
 		)
 		(property "MASS (G)" "40mg"
-			(at 75.692 147.574 90)
+			(at 71.882 147.574 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19765,7 +20093,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 75.692 147.574 90)
+			(at 71.882 147.574 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19777,7 +20105,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0805"
-			(at 78.486 167.386 90)
+			(at 77.47 165.354 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19788,7 +20116,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19800,7 +20128,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000117"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19812,7 +20140,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19824,7 +20152,7 @@
 			)
 		)
 		(property "AEC-Q" "No"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19836,7 +20164,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19848,7 +20176,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19860,7 +20188,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19872,7 +20200,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19884,7 +20212,7 @@
 			)
 		)
 		(property "TOLERANCE" "20%"
-			(at 75.692 145.034 90)
+			(at 71.882 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19896,7 +20224,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "10V"
-			(at 78.486 169.926 90)
+			(at 77.47 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19907,7 +20235,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 75.692 142.494 90)
+			(at 71.882 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19935,7 +20263,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 149.86 167.64 0)
+		(at 154.94 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19945,7 +20273,7 @@
 		(dnp no)
 		(uuid "88200c5a-64d9-4e72-915d-7352a27f3ff7")
 		(property "Reference" "#PWR024"
-			(at 149.86 167.64 0)
+			(at 154.94 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19956,7 +20284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 173.99 0)
+			(at 154.94 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19966,7 +20294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 167.64 0)
+			(at 154.94 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19976,7 +20304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 167.64 0)
+			(at 154.94 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19986,7 +20314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 167.64 0)
+			(at 154.94 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20009,7 +20337,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
-		(at 127 20.32 90)
+		(at 139.7 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20019,7 +20347,7 @@
 		(dnp no)
 		(uuid "89e46a03-f35e-4966-9b83-fec5d2362a88")
 		(property "Reference" "TP3"
-			(at 125.857 24.003 90)
+			(at 138.557 45.593 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20030,7 +20358,7 @@
 			)
 		)
 		(property "Value" "TPAD6R"
-			(at 134.62 22.86 90)
+			(at 147.32 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20041,8 +20369,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
-			(at 127 20.32 0)
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
+			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20053,7 +20381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 20.32 0)
+			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20064,7 +20392,7 @@
 			)
 		)
 		(property "Description" "0.6mm round"
-			(at 127 20.32 0)
+			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20075,7 +20403,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20087,7 +20415,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20099,7 +20427,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20111,7 +20439,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20123,7 +20451,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20135,7 +20463,7 @@
 			)
 		)
 		(property "PINS" "1"
-			(at 125.857 17.78 90)
+			(at 138.557 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20160,7 +20488,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_3_LED-GREEN-KA-2_Maven Robotics")
-		(at 152.4 55.88 0)
+		(at 158.75 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20170,7 +20498,7 @@
 		(dnp no)
 		(uuid "8c9b124d-98e3-47a7-baeb-6c315c5c9b66")
 		(property "Reference" "DS1"
-			(at 155.448 58.166 0)
+			(at 161.798 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20181,7 +20509,7 @@
 			)
 		)
 		(property "Value" "LED_Green_20mA_0402"
-			(at 155.448 60.706 0)
+			(at 161.798 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20191,8 +20519,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_0402_Green_KA"
-			(at 152.4 55.88 0)
+		(property "Footprint" "Piezo_Footprints:LED_0402_Green_KA"
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20203,7 +20531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 55.88 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20214,7 +20542,7 @@
 			)
 		)
 		(property "Description" "LED, Green, 2.1V, 20mA, AlGaInP, 0402, Kingbright APHHS1005CGCK"
-			(at 152.4 55.88 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20225,7 +20553,7 @@
 			)
 		)
 		(property "COLOUR" "Green"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20237,7 +20565,7 @@
 			)
 		)
 		(property "MASS (G)" "0.015"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20249,7 +20577,7 @@
 			)
 		)
 		(property "FORWARD CURRENT" "20mA"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20261,7 +20589,7 @@
 			)
 		)
 		(property "MAX POWER DISSIPATION" "75mW"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20273,7 +20601,7 @@
 			)
 		)
 		(property "NOMINAL VF" "2.1V"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20285,7 +20613,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20297,7 +20625,7 @@
 			)
 		)
 		(property "FORWARD VOLTAGE" "2.1V"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20309,7 +20637,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20321,7 +20649,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20333,7 +20661,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20345,7 +20673,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20357,7 +20685,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20369,7 +20697,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000315"
-			(at 147.066 50.292 0)
+			(at 153.416 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20397,7 +20725,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
-		(at 187.96 15.24 180)
+		(at 194.31 20.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20407,7 +20735,7 @@
 		(dnp no)
 		(uuid "8d3e84d1-a480-40a7-914e-0bb8b8ef97b3")
 		(property "Reference" "#PWR026"
-			(at 187.96 15.24 0)
+			(at 194.31 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20418,7 +20746,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 187.96 11.43 0)
+			(at 194.31 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20428,7 +20756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 15.24 0)
+			(at 194.31 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20438,7 +20766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 15.24 0)
+			(at 194.31 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20448,7 +20776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 15.24 0)
+			(at 194.31 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20692,8 +21020,253 @@
 		)
 	)
 	(symbol
+		(lib_id "Maven Robotics:root_0_RES-2_Maven Robotics_0")
+		(at 105.41 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a0aa23a-c764-4347-afac-2bf170e07506")
+		(property "Reference" "R13"
+			(at 109.474 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res_2.26kR0_1%_63mW_0402"
+			(at 107.696 161.036 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 105.41 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Metal Glaze/thick Film, 0.063W, 0ohm, Surface Mount, 0402"
+			(at 105.41 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARAMETER 4" ""
+			(at 104.902 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 3" ""
+			(at 104.902 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 2" ""
+			(at 104.902 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 1" ""
+			(at 104.902 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000039"
+			(at 104.902 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Surface Mount"
+			(at 104.902 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.26K"
+			(at 108.966 159.258 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 104.902 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 104.902 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PINS" "2"
+			(at 104.902 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AEC-Q" "Yes"
+			(at 104.902 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "50V"
+			(at 104.902 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MASS (G)" "650µg"
+			(at 104.902 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "155°C"
+			(at 104.902 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7b00d17b-4035-4654-a4e8-3dbc1c46a8fa")
+		)
+		(pin "2"
+			(uuid "fbead80a-db16-4b96-bb76-2551b03cde34")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 124.46 177.8 0)
+		(at 118.11 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20703,7 +21276,7 @@
 		(dnp no)
 		(uuid "a1975237-ac8f-4f5a-aa20-845a8d5e1c8a")
 		(property "Reference" "#PWR018"
-			(at 124.46 177.8 0)
+			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20714,7 +21287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 184.15 0)
+			(at 118.11 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20724,7 +21297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 177.8 0)
+			(at 118.11 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20734,7 +21307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 177.8 0)
+			(at 118.11 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20744,7 +21317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 177.8 0)
+			(at 118.11 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20768,7 +21341,7 @@
 	(symbol
 		(lib_name "root_1_RES-2_Maven Robotics_0_3")
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 149.86 48.26 180)
+		(at 156.21 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20778,7 +21351,7 @@
 		(dnp no)
 		(uuid "a1d0b60c-6b96-4661-8de3-0614129af638")
 		(property "Reference" "R12"
-			(at 150.876 40.386 0)
+			(at 157.226 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20789,7 +21362,7 @@
 			)
 		)
 		(property "Value" "Res_100R_1%_63mW_0402"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20800,8 +21373,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 149.86 48.26 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20812,7 +21385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 48.26 0)
+			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20823,7 +21396,7 @@
 			)
 		)
 		(property "Description" "Fixed Resistor, Metal Glaze/thick Film, 0.063W, 100ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-			(at 149.86 48.26 0)
+			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20834,7 +21407,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 162.56 48.768 90)
+			(at 168.91 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20845,7 +21418,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 160.02 48.768 90)
+			(at 166.37 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20856,7 +21429,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 157.48 48.768 90)
+			(at 163.83 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20867,7 +21440,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 154.94 48.768 90)
+			(at 161.29 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20878,7 +21451,7 @@
 			)
 		)
 		(property "POWER" "63mW"
-			(at 150.876 45.466 0)
+			(at 157.226 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20889,7 +21462,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20901,7 +21474,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20913,7 +21486,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20925,7 +21498,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20937,7 +21510,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 150.876 48.006 0)
+			(at 157.226 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20948,7 +21521,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20960,7 +21533,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20972,7 +21545,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20984,7 +21557,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20996,7 +21569,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000016"
-			(at 148.844 35.052 0)
+			(at 155.194 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21008,7 +21581,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 150.876 50.546 0)
+			(at 157.226 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21019,7 +21592,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100"
-			(at 150.876 42.926 0)
+			(at 157.226 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21078,7 +21651,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
+		(property "Footprint" "Piezo_Footprints:RES_0402"
 			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21290,6 +21863,276 @@
 		)
 	)
 	(symbol
+		(lib_id "Maven Robotics:root_3_CAP-NP-2_Maven Robotics")
+		(at 132.08 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3728f1a-e3e6-4002-8497-c92717881bdf")
+		(property "Reference" "C13"
+			(at 134.366 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Cap_1nF_10%_16V_0402"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, 1nF, 10% tolerance, 16V, 0402 Package."
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PINS" ""
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "SMT"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "-40°C"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
+			(at 134.366 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000003"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "16V"
+			(at 134.366 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CAPACITOR TYPE" "MLCC"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RIPPLE CURRENT (AC)" ""
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1nF"
+			(at 134.366 169.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "125°C"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RIPPLE CURRENT" ""
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1.6mg"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "AEC-Q" "Yes"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CASE/PACKAGE" "0402"
+			(at 134.366 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" "<Yes>, <No>"
+			(at 129.794 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "baf47b6d-271e-4969-b389-aae7cd0bb4fc")
+		)
+		(pin "2"
+			(uuid "43edd612-ec34-406b-9bb1-e67482e1731a")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-00134-2_Maven Robotics")
 		(at 99.06 215.9 90)
 		(unit 1)
@@ -21323,7 +22166,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 99.06 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -21438,6 +22281,251 @@
 		)
 	)
 	(symbol
+		(lib_id "Maven Robotics:root_0_RES-2_Maven Robotics_0")
+		(at 35.56 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a643c1a1-ad69-48cd-a7b5-661f4cfa9b32")
+		(property "Reference" "R15"
+			(at 40.64 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res_0R0_1%_63mW_0402"
+			(at 37.846 161.036 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Metal Glaze/thick Film, 0.063W, 0ohm, Surface Mount, 0402"
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARAMETER 4" ""
+			(at 35.052 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 3" ""
+			(at 35.052 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 2" ""
+			(at 35.052 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PARAMETER 1" ""
+			(at 35.052 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000039"
+			(at 35.052 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Surface Mount"
+			(at 35.052 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0"
+			(at 41.148 159.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 35.052 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 35.052 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PINS" "2"
+			(at 35.052 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AEC-Q" "Yes"
+			(at 35.052 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "50V"
+			(at 35.052 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MASS (G)" "650µg"
+			(at 35.052 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "155°C"
+			(at 35.052 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c5b0b2fa-1b2a-4201-ba24-6f2ba4619aa3")
+		)
+		(pin "1"
+			(uuid "dc8f112b-dfd0-4849-a485-c4133a53a180")
+		)
+		(instances
+			(project "Piezo_ADC"
+				(path "/b59525dd-c3a5-42c4-90f7-d761f18c34ae"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-00134-2_Maven Robotics")
 		(at 109.22 223.52 90)
 		(unit 1)
@@ -21471,7 +22559,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 109.22 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -21693,7 +22781,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 109.22 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -21809,7 +22897,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_RES-2_Maven Robotics_0")
-		(at 170.18 154.94 90)
+		(at 173.99 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21819,7 +22907,7 @@
 		(dnp no)
 		(uuid "acda2354-f200-4f06-bdc9-b0d5b9b1a734")
 		(property "Reference" "R4"
-			(at 172.466 153.924 90)
+			(at 176.276 153.924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21830,7 +22918,7 @@
 			)
 		)
 		(property "Value" "Res_0R0_1%_63mW_0402"
-			(at 172.466 158.496 90)
+			(at 176.276 158.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21841,8 +22929,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 170.18 154.94 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21853,7 +22941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 154.94 0)
+			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21864,7 +22952,7 @@
 			)
 		)
 		(property "Description" "Metal Glaze/thick Film, 0.063W, 0ohm, Surface Mount, 0402"
-			(at 170.18 154.94 0)
+			(at 173.99 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21875,7 +22963,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 169.672 167.64 90)
+			(at 173.482 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21886,7 +22974,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 169.672 165.1 90)
+			(at 173.482 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21897,7 +22985,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 169.672 162.56 90)
+			(at 173.482 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21908,7 +22996,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 169.672 160.02 90)
+			(at 173.482 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21919,7 +23007,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000039"
-			(at 169.672 151.384 90)
+			(at 173.482 151.384 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21931,7 +23019,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 169.672 151.384 90)
+			(at 173.482 151.384 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21943,7 +23031,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0"
-			(at 172.466 158.496 90)
+			(at 176.276 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21954,7 +23042,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 169.672 146.304 90)
+			(at 173.482 146.304 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21966,7 +23054,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 169.672 146.304 90)
+			(at 173.482 146.304 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21978,7 +23066,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 169.672 141.224 90)
+			(at 173.482 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21990,7 +23078,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 169.672 141.224 90)
+			(at 173.482 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22002,7 +23090,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 169.672 141.224 90)
+			(at 173.482 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22014,7 +23102,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 169.672 141.224 90)
+			(at 173.482 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22026,7 +23114,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 169.672 141.224 90)
+			(at 173.482 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22086,7 +23174,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "9774020960"
+		(property "Footprint" "Piezo_Footprints:9774020960"
 			(at 76.2 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -22365,7 +23453,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_CAP-NP-2_Maven Robotics")
-		(at 109.22 33.02 180)
+		(at 121.92 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22375,7 +23463,7 @@
 		(dnp no)
 		(uuid "b0f316aa-ce0a-44ac-93a4-da37d3ffbab5")
 		(property "Reference" "C2"
-			(at 111.506 30.226 0)
+			(at 124.206 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22386,7 +23474,7 @@
 			)
 		)
 		(property "Value" "Cap_1uF_10%_10V_0402"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22397,8 +23485,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 109.22 33.02 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 121.92 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22409,7 +23497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 33.02 0)
+			(at 121.92 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22420,7 +23508,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, Ceramic, 10V, 10% +Tol, 10% -Tol, X7R, 15% TC, 1uF, Surface Mount, 0402"
-			(at 109.22 33.02 0)
+			(at 121.92 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22431,7 +23519,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000094"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22443,7 +23531,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22455,7 +23543,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22467,7 +23555,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22479,7 +23567,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22491,7 +23579,7 @@
 			)
 		)
 		(property "AEC-Q" "No"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22503,7 +23591,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 111.506 35.306 0)
+			(at 124.206 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22514,7 +23602,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "10V"
-			(at 111.506 37.846 0)
+			(at 124.206 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22525,7 +23613,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22537,7 +23625,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22549,7 +23637,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1µF"
-			(at 111.506 32.766 0)
+			(at 124.206 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22560,7 +23648,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 111.506 40.386 0)
+			(at 124.206 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22571,7 +23659,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22583,7 +23671,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22595,7 +23683,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22607,7 +23695,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 106.934 24.892 0)
+			(at 119.634 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22668,7 +23756,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
 			(at 284.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22807,7 +23895,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
+		(property "ALTIUM_VALUE" "0.1uF"
 			(at 286.766 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,7 +24026,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
+		(property "Footprint" "Piezo_Footprints:RES_0402"
 			(at 68.58 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23151,7 +24239,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
-		(at 149.86 15.24 180)
+		(at 156.21 20.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23161,7 +24249,7 @@
 		(dnp no)
 		(uuid "bbc8d541-e348-4bb4-9862-2837d4fd92c8")
 		(property "Reference" "#PWR022"
-			(at 149.86 15.24 0)
+			(at 156.21 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23172,7 +24260,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 149.86 11.43 0)
+			(at 156.21 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23182,7 +24270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 15.24 0)
+			(at 156.21 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23192,7 +24280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 15.24 0)
+			(at 156.21 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23202,7 +24290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 15.24 0)
+			(at 156.21 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23225,7 +24313,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_3bc925449376181038e59eaffc5286c_Maven Robotics")
-		(at 35.56 157.48 90)
+		(at 27.94 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23235,7 +24323,7 @@
 		(dnp no)
 		(uuid "bcaaa552-db01-49bc-9ac2-881617ec53f8")
 		(property "Reference" "J2"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23246,7 +24334,7 @@
 			)
 		)
 		(property "Value" "Conn_2Pos_3.96mm_1Row_TH_JST_B2PS-VH"
-			(at -2.54 170.18 90)
+			(at -10.16 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23257,8 +24345,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "JST_B2PS-VH-FP"
-			(at 35.56 157.48 0)
+		(property "Footprint" "Piezo_Footprints:JST_B2PS-VH-FP"
+			(at 27.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23269,7 +24357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 157.48 0)
+			(at 27.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23280,7 +24368,7 @@
 			)
 		)
 		(property "Description" "Conn, JST, VH Series, 2pos 3.96mm pitch, R/A, Through Hole"
-			(at 35.56 157.48 0)
+			(at 27.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,7 +24379,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE (C)" "-40°C"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23303,7 +24391,7 @@
 			)
 		)
 		(property "MPN1" "B2PS-VH"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23315,7 +24403,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "2"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23327,7 +24415,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23339,7 +24427,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Male Pin"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23351,7 +24439,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23363,7 +24451,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "250V"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23375,7 +24463,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000291"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23387,7 +24475,7 @@
 			)
 		)
 		(property "MASS (G)" "1g"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23399,7 +24487,7 @@
 			)
 		)
 		(property "MFG1" "JST"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23411,7 +24499,7 @@
 			)
 		)
 		(property "MAX CURRENT RATING" "10A"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23423,7 +24511,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE (C)" "105°C"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23435,7 +24523,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Through Hole"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23447,7 +24535,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 25.4 152.4 90)
+			(at 17.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23475,7 +24563,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
-		(at 99.06 142.24 180)
+		(at 93.98 142.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23485,7 +24573,7 @@
 		(dnp no)
 		(uuid "bd267e00-f0b5-49db-80fc-fa1a2445c384")
 		(property "Reference" "#PWR043"
-			(at 99.06 142.24 0)
+			(at 93.98 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23496,7 +24584,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 99.06 138.43 0)
+			(at 93.98 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23506,7 +24594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 142.24 0)
+			(at 93.98 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23516,7 +24604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 142.24 0)
+			(at 93.98 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23526,7 +24614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 142.24 0)
+			(at 93.98 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23657,7 +24745,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
 			(at 279.4 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -23796,7 +24884,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
+		(property "ALTIUM_VALUE" "0.1uF"
 			(at 281.686 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23969,7 +25057,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
-		(at 88.9 142.24 0)
+		(at 83.82 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23980,7 +25068,7 @@
 		(fields_autoplaced yes)
 		(uuid "c254ac08-0b85-4b67-8313-d4251394647b")
 		(property "Reference" "D1"
-			(at 88.9 135.89 0)
+			(at 83.82 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23990,7 +25078,7 @@
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 88.9 138.43 0)
+			(at 83.82 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24000,7 +25088,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 90.805 139.065 0)
+			(at 85.725 139.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24012,7 +25100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 85.852 142.24 0)
+			(at 80.772 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24023,7 +25111,7 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 88.9 142.24 0)
+			(at 83.82 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24053,7 +25141,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
-		(at 109.22 15.24 180)
+		(at 121.92 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24063,7 +25151,7 @@
 		(dnp no)
 		(uuid "c6982213-74e6-46bd-afa8-a3c4d63e60db")
 		(property "Reference" "#PWR014"
-			(at 109.22 15.24 0)
+			(at 121.92 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24074,7 +25162,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 109.22 11.43 0)
+			(at 121.92 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24084,7 +25172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 15.24 0)
+			(at 121.92 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24094,7 +25182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 15.24 0)
+			(at 121.92 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24104,7 +25192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 15.24 0)
+			(at 121.92 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24127,7 +25215,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 109.22 38.1 0)
+		(at 121.92 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24137,7 +25225,7 @@
 		(dnp no)
 		(uuid "cde41510-ee49-4e1f-bb8b-9d5b545aa1cc")
 		(property "Reference" "#PWR015"
-			(at 109.22 38.1 0)
+			(at 121.92 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24148,7 +25236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 44.45 0)
+			(at 121.92 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24158,7 +25246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 38.1 0)
+			(at 121.92 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24168,7 +25256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 38.1 0)
+			(at 121.92 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24178,7 +25266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 38.1 0)
+			(at 121.92 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24233,7 +25321,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "9774020960"
+		(property "Footprint" "Piezo_Footprints:9774020960"
 			(at 66.04 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -24364,7 +25452,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
-		(at 20.32 15.24 180)
+		(at 33.02 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24374,7 +25462,7 @@
 		(dnp no)
 		(uuid "cfa313e4-5309-4f37-9590-8291f5d3b39b")
 		(property "Reference" "#PWR02"
-			(at 20.32 15.24 0)
+			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24385,7 +25473,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 20.32 11.43 0)
+			(at 33.02 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24395,7 +25483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 15.24 0)
+			(at 33.02 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24405,7 +25493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 15.24 0)
+			(at 33.02 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24415,7 +25503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 15.24 0)
+			(at 33.02 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24438,7 +25526,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 127 114.3 180)
+		(at 132.08 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24448,7 +25536,7 @@
 		(dnp no)
 		(uuid "d8ba16ec-eabf-4678-aa86-02070d74a8aa")
 		(property "Reference" "R1"
-			(at 128.016 106.426 0)
+			(at 133.096 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24459,7 +25547,7 @@
 			)
 		)
 		(property "Value" "Res_3M9_1%_63mW_0402"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24470,8 +25558,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 127 114.3 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 132.08 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24482,7 +25570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 114.3 0)
+			(at 132.08 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24493,7 +25581,7 @@
 			)
 		)
 		(property "Description" "Resistor, 3.9M ohm, 1%, Thicj Film, 63mW, 0402"
-			(at 127 114.3 0)
+			(at 132.08 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24504,7 +25592,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 139.7 114.808 90)
+			(at 144.78 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24515,7 +25603,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 137.16 114.808 90)
+			(at 142.24 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24526,7 +25614,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 134.62 114.808 90)
+			(at 139.7 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24537,7 +25625,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 132.08 114.808 90)
+			(at 137.16 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24548,7 +25636,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24560,7 +25648,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000330"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24572,7 +25660,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 128.016 111.506 0)
+			(at 133.096 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24583,7 +25671,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24595,7 +25683,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24607,7 +25695,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24619,7 +25707,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24631,7 +25719,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24643,7 +25731,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24655,7 +25743,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 125.984 101.092 0)
+			(at 131.064 101.092 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24667,7 +25755,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "3.9M"
-			(at 128.016 108.966 0)
+			(at 133.096 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24694,7 +25782,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 111.76 172.72 180)
+		(at 102.87 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24704,7 +25792,7 @@
 		(dnp no)
 		(uuid "d9c92373-2346-4bb9-89b8-c6d95218f6fb")
 		(property "Reference" "R7"
-			(at 112.776 164.846 0)
+			(at 103.886 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24715,7 +25803,7 @@
 			)
 		)
 		(property "Value" "Res_3M9_1%_63mW_0402"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24726,8 +25814,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 111.76 172.72 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24738,7 +25826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 172.72 0)
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24749,7 +25837,7 @@
 			)
 		)
 		(property "Description" "Resistor, 3.9M ohm, 1%, Thicj Film, 63mW, 0402"
-			(at 111.76 172.72 0)
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24760,7 +25848,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 124.46 173.228 90)
+			(at 115.57 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24771,7 +25859,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 121.92 173.228 90)
+			(at 113.03 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24782,7 +25870,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 119.38 173.228 90)
+			(at 110.49 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24793,7 +25881,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 116.84 173.228 90)
+			(at 107.95 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24804,7 +25892,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24816,7 +25904,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000330"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24828,7 +25916,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24840,7 +25928,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24852,7 +25940,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24864,7 +25952,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24876,7 +25964,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24888,7 +25976,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24900,7 +25988,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 110.744 159.512 0)
+			(at 101.854 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24912,7 +26000,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "3.9M"
-			(at 112.776 167.386 0)
+			(at 103.886 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24939,7 +26027,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
-		(at 132.08 157.48 90)
+		(at 140.97 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24949,7 +26037,7 @@
 		(dnp no)
 		(uuid "dc38185e-fb60-4ea6-b399-78700472c7e1")
 		(property "Reference" "TP4"
-			(at 130.937 161.163 90)
+			(at 139.827 161.163 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24960,7 +26048,7 @@
 			)
 		)
 		(property "Value" "TPAD6R"
-			(at 139.7 160.02 90)
+			(at 148.59 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24971,8 +26059,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
-			(at 132.08 157.48 0)
+		(property "Footprint" "Piezo_Footprints:TP06R"
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24983,7 +26071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 157.48 0)
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24994,7 +26082,7 @@
 			)
 		)
 		(property "Description" "0.6mm round"
-			(at 132.08 157.48 0)
+			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25005,7 +26093,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25017,7 +26105,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25029,7 +26117,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25041,7 +26129,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25053,7 +26141,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25065,7 +26153,7 @@
 			)
 		)
 		(property "PINS" "1"
-			(at 130.937 154.94 90)
+			(at 139.827 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25122,7 +26210,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 119.38 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -25270,7 +26358,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "FID1X2R"
+		(property "Footprint" "Piezo_Footprints:FID1X2R"
 			(at 99.06 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -25417,7 +26505,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOIC-8"
+		(property "Footprint" "Piezo_Footprints:SOIC-8"
 			(at 297.18 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -25649,7 +26737,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "A-2004-2-4-LPS-N-R"
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
 			(at 383.54 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25867,7 +26955,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
-		(at 190.5 154.94 90)
+		(at 194.31 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25877,7 +26965,7 @@
 		(dnp no)
 		(uuid "e71fc5bd-2eb1-4761-8de4-7ca2bcaf949f")
 		(property "Reference" "TP5"
-			(at 189.357 158.623 90)
+			(at 193.167 158.623 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25888,7 +26976,7 @@
 			)
 		)
 		(property "Value" "TPAD6R"
-			(at 198.12 157.48 90)
+			(at 201.93 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25899,8 +26987,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
-			(at 190.5 154.94 0)
+		(property "Footprint" "Piezo_Footprints:Keystone 5001 TP"
+			(at 194.31 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25911,7 +26999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 154.94 0)
+			(at 194.31 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25922,7 +27010,7 @@
 			)
 		)
 		(property "Description" "0.6mm round"
-			(at 190.5 154.94 0)
+			(at 194.31 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25933,7 +27021,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25945,7 +27033,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25957,7 +27045,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25969,7 +27057,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25981,7 +27069,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25993,7 +27081,7 @@
 			)
 		)
 		(property "PINS" "1"
-			(at 189.357 152.4 90)
+			(at 193.167 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26167,7 +27255,7 @@
 	(symbol
 		(lib_name "root_1_RES-2_Maven Robotics_0_2")
 		(lib_id "Maven Robotics:root_1_RES-2_Maven Robotics_0")
-		(at 149.86 30.48 180)
+		(at 156.21 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26177,7 +27265,7 @@
 		(dnp no)
 		(uuid "eb8358b4-8f1e-4860-b7e9-498722dc0bf0")
 		(property "Reference" "R10"
-			(at 150.876 22.606 0)
+			(at 157.226 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26188,7 +27276,7 @@
 			)
 		)
 		(property "Value" "Res_100R_1%_63mW_0402"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26199,8 +27287,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RES_0402"
-			(at 149.86 30.48 0)
+		(property "Footprint" "Piezo_Footprints:RES_0402"
+			(at 156.21 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26211,7 +27299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 30.48 0)
+			(at 156.21 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26222,7 +27310,7 @@
 			)
 		)
 		(property "Description" "Fixed Resistor, Metal Glaze/thick Film, 0.063W, 100ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402"
-			(at 149.86 30.48 0)
+			(at 156.21 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26233,7 +27321,7 @@
 			)
 		)
 		(property "PARAMETER 4" ""
-			(at 162.56 30.988 90)
+			(at 168.91 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26244,7 +27332,7 @@
 			)
 		)
 		(property "PARAMETER 3" ""
-			(at 160.02 30.988 90)
+			(at 166.37 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26255,7 +27343,7 @@
 			)
 		)
 		(property "PARAMETER 2" ""
-			(at 157.48 30.988 90)
+			(at 163.83 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26266,7 +27354,7 @@
 			)
 		)
 		(property "PARAMETER 1" ""
-			(at 154.94 30.988 90)
+			(at 161.29 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26277,7 +27365,7 @@
 			)
 		)
 		(property "POWER" "63mW"
-			(at 150.876 27.686 0)
+			(at 157.226 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26288,7 +27376,7 @@
 			)
 		)
 		(property "MASS (G)" "650µg"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26300,7 +27388,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26312,7 +27400,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26324,7 +27412,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26336,7 +27424,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 150.876 30.226 0)
+			(at 157.226 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26347,7 +27435,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50V"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26359,7 +27447,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26371,7 +27459,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26383,7 +27471,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26395,7 +27483,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000016"
-			(at 148.844 17.272 0)
+			(at 155.194 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26407,7 +27495,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 150.876 32.766 0)
+			(at 157.226 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26418,7 +27506,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100"
-			(at 150.876 25.146 0)
+			(at 157.226 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26445,7 +27533,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_3_CAP-NP-2_Maven Robotics")
-		(at 124.46 162.56 0)
+		(at 118.11 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26455,7 +27543,7 @@
 		(dnp no)
 		(uuid "ec852934-0afa-41e9-9e97-75385da6d84f")
 		(property "Reference" "C11"
-			(at 126.746 167.386 0)
+			(at 120.396 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26465,8 +27553,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap_0.1uF_10%_16V_0402"
-			(at 122.174 162.052 0)
+		(property "Value" "Cap_2.05nF_10%_16V_0402"
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26477,8 +27565,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 124.46 162.56 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 118.11 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26489,7 +27577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 162.56 0)
+			(at 118.11 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26499,8 +27587,8 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor, 0.1uF, 10% tolerance, 16V, 0402 Package."
-			(at 124.46 162.56 0)
+		(property "Description" "Capacitor, 2.05nF, 10% tolerance, 16V, 0402 Package."
+			(at 118.11 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26511,7 +27599,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26523,7 +27611,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26535,7 +27623,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "-40°C"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26547,7 +27635,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 126.746 172.466 0)
+			(at 120.396 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26558,7 +27646,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26570,7 +27658,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000003"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26582,7 +27670,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "16V"
-			(at 126.746 175.006 0)
+			(at 120.396 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26593,7 +27681,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26605,7 +27693,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26616,8 +27704,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 126.746 169.926 0)
+		(property "ALTIUM_VALUE" "2.05nF"
+			(at 120.396 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26628,7 +27716,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "125°C"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26640,7 +27728,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26652,7 +27740,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26664,7 +27752,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26676,7 +27764,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 126.746 177.546 0)
+			(at 120.396 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26687,7 +27775,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "<Yes>, <No>"
-			(at 122.174 162.052 0)
+			(at 115.824 162.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26821,7 +27909,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
 			(at 198.12 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -27133,7 +28221,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_0_CMP-001-0001-4_Maven Robotics")
-		(at 10.16 20.32 90)
+		(at 22.86 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27143,7 +28231,7 @@
 		(dnp no)
 		(uuid "f4af9944-ea2d-41e8-be38-ea310ae9d5b3")
 		(property "Reference" "TP2"
-			(at 9.017 24.003 90)
+			(at 21.717 45.593 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27154,7 +28242,7 @@
 			)
 		)
 		(property "Value" "TPAD6R"
-			(at 17.78 22.86 90)
+			(at 30.48 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27165,8 +28253,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP06R"
-			(at 10.16 20.32 0)
+		(property "Footprint" "Piezo_Footprints:TP06R"
+			(at 22.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27177,7 +28265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 10.16 20.32 0)
+			(at 22.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27188,7 +28276,7 @@
 			)
 		)
 		(property "Description" "0.6mm round"
-			(at 10.16 20.32 0)
+			(at 22.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27199,7 +28287,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27211,7 +28299,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27223,7 +28311,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27235,7 +28323,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27247,7 +28335,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27259,7 +28347,7 @@
 			)
 		)
 		(property "PINS" "1"
-			(at 9.017 17.78 90)
+			(at 21.717 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27284,7 +28372,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 99.06 38.1 0)
+		(at 111.76 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27294,7 +28382,7 @@
 		(dnp no)
 		(uuid "f52a9005-da9d-4700-b7ab-765ae20087d8")
 		(property "Reference" "#PWR013"
-			(at 99.06 38.1 0)
+			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27305,7 +28393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 44.45 0)
+			(at 111.76 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27315,7 +28403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 38.1 0)
+			(at 111.76 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27325,7 +28413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 38.1 0)
+			(at 111.76 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27335,7 +28423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 38.1 0)
+			(at 111.76 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27358,7 +28446,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 78.74 142.24 0)
+		(at 73.66 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27368,7 +28456,7 @@
 		(dnp no)
 		(uuid "f63335ec-8114-473e-be77-f8f7c1c56a9e")
 		(property "Reference" "#PWR042"
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27379,7 +28467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 148.59 0)
+			(at 73.66 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27389,7 +28477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27399,7 +28487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27409,7 +28497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27506,7 +28594,7 @@
 	)
 	(symbol
 		(lib_id "Maven Robotics:root_3_CAP-NP-2_Maven Robotics")
-		(at 185.42 160.02 0)
+		(at 189.23 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27516,7 +28604,7 @@
 		(dnp no)
 		(uuid "fdd94973-62ac-45a4-9478-2004a0016e2c")
 		(property "Reference" "C10"
-			(at 187.706 164.846 0)
+			(at 191.516 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27527,7 +28615,7 @@
 			)
 		)
 		(property "Value" "Cap_0.1uF_10%_16V_0402"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27538,8 +28626,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP_0402_0.6mm_Height"
-			(at 185.42 160.02 0)
+		(property "Footprint" "Piezo_Footprints:CAP_0402_0.6mm_Height"
+			(at 189.23 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27550,7 +28638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 160.02 0)
+			(at 189.23 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27561,7 +28649,7 @@
 			)
 		)
 		(property "Description" "Capacitor, 0.1uF, 10% tolerance, 16V, 0402 Package."
-			(at 185.42 160.02 0)
+			(at 189.23 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27572,7 +28660,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27584,7 +28672,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "SMT"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27596,7 +28684,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "-40°C"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27608,7 +28696,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 187.706 169.926 0)
+			(at 191.516 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27619,7 +28707,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27631,7 +28719,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000003"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27643,7 +28731,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "16V"
-			(at 187.706 172.466 0)
+			(at 191.516 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27654,7 +28742,7 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "MLCC"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27666,7 +28754,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27677,8 +28765,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 187.706 167.386 0)
+		(property "ALTIUM_VALUE" "0.1uF"
+			(at 191.516 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27689,7 +28777,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "125°C"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27701,7 +28789,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27713,7 +28801,7 @@
 			)
 		)
 		(property "MASS (G)" "1.6mg"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27725,7 +28813,7 @@
 			)
 		)
 		(property "AEC-Q" "Yes"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27737,7 +28825,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0402"
-			(at 187.706 175.006 0)
+			(at 191.516 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27748,7 +28836,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "<Yes>, <No>"
-			(at 183.134 159.512 0)
+			(at 186.944 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

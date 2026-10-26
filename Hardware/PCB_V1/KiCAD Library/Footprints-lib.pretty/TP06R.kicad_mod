@@ -1,0 +1,77 @@
+(footprint "TP06R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP4"
+		(at -0.146174 -2.10578 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53c6c397-3d5b-48a6-b57e-82ac2b08b158")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "TPAD6R"
+		(at -2.149602 4.253105 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "131027f5-bdb0-4c99-937c-c7973038a8ab")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13063abe-9e71-4e02-8545-d7815b94d437")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c74236f4-21fe-45ca-a03a-f46640dbab0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Top_Sheet")
+	(sheetfile "Top_Sheet.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13f98aca-bbfd-4c40-a0a1-114adc5f2875")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -1)
+		(thermal_bridge_angle 90)
+		(uuid "72e339c0-a086-4675-a90f-212328dae11f")
+	)
+	(embedded_fonts no)
+)
