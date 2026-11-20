@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "fd79af7a-c1e1-4c52-9177-1c00ba64fdc5")
-	(paper "A4")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Maven Robotics:root_0_SN65HVD30DR-SYM_Maven Robotics"
 			(exclude_from_sim no)
@@ -1597,9 +1597,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 417.83 36.195)
+		(end 575.31 370.205)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f74bc6e9-9533-4fef-b020-59e60c7a7979")
+	)
 	(text "3.3V output on RPI5, but GPIO pin headers are standard"
 		(exclude_from_sim no)
-		(at 164.592 73.66 0)
+		(at 162.052 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,9 +1619,19 @@
 		)
 		(uuid "19f6c038-866a-4d6f-a6be-3542f34fef23")
 	)
+	(text "RJ45 Connectors to ADCs"
+		(exclude_from_sim no)
+		(at 472.948 45.72 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "237a9b48-6c45-48ae-a82f-0b71fb88eaa6")
+	)
 	(text "Make pin headers stackable, female on bottom, male on top. With CS going to each stacked one."
 		(exclude_from_sim no)
-		(at 177.8 78.994 0)
+		(at 169.418 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1619,7 +1641,7 @@
 	)
 	(text "Make purposal for cs line selection. Ask AI and check with max\n\nUse a shift register for the board CS selection"
 		(exclude_from_sim no)
-		(at 77.724 104.394 0)
+		(at 58.928 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,22 +1656,74 @@
 		(uuid "01c984ff-5a20-424b-a5c7-0364052da97f")
 	)
 	(junction
-		(at 243.84 127)
+		(at 529.59 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56db73b4-bd29-47a2-823d-4bada0c03568")
+		(uuid "0b29d0c7-90e9-4adf-9902-dd03f3f99c39")
+	)
+	(junction
+		(at 453.39 353.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14cbb5fc-597a-4dcd-93d3-213fe454828e")
+	)
+	(junction
+		(at 529.59 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "618296c5-ecfe-4595-a361-d646ce200df7")
+	)
+	(junction
+		(at 453.39 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68c85e9a-dcb7-409b-887d-4466f1ee218c")
 	)
 	(junction
 		(at 115.57 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8c47be4-05dd-430b-ab5f-cef8b53e172c")
+		(uuid "8c6ba754-bfbf-4bcb-83f2-7ab1e9dbc593")
+	)
+	(junction
+		(at 529.59 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a98902bc-40d6-4d53-aec2-c7b800d9d3d0")
+	)
+	(junction
+		(at 453.39 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7758f11-a47d-40aa-8473-c85b4e12eb7d")
 	)
 	(junction
 		(at 105.41 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9016877-0d39-44ab-bcf2-bd84ab10babf")
+	)
+	(junction
+		(at 529.59 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e22b660c-8e8d-4d3a-97a2-7568cfeaf5fa")
+	)
+	(junction
+		(at 453.39 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea51eb99-8b14-4547-b8e8-2cfc9869f2a5")
+	)
+	(wire
+		(pts
+			(xy 532.13 276.86) (xy 529.59 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00248198-c19a-463d-9a10-01530bb1ef18")
 	)
 	(wire
 		(pts
@@ -1663,7 +1737,47 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 137.16) (xy 243.84 127)
+			(xy 455.93 325.12) (xy 427.99 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031ecf13-be43-41b9-932c-dc02e3062a7a")
+	)
+	(wire
+		(pts
+			(xy 448.31 76.2) (xy 448.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05eeddab-64fb-41b3-b2cf-f45f37ce2ce8")
+	)
+	(wire
+		(pts
+			(xy 455.93 238.76) (xy 427.99 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f25ad8-b164-4d6b-a95d-6e26f86d61cf")
+	)
+	(wire
+		(pts
+			(xy 455.93 314.96) (xy 427.99 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb9f91b-62df-42f4-9e78-05d71f39941c")
+	)
+	(wire
+		(pts
+			(xy 529.59 128.27) (xy 529.59 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1797,27 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 218.44 99.06)
+			(xy 453.39 194.31) (xy 455.93 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ee0e12-bd0b-4ec1-8bb6-f45d6988cfa5")
+	)
+	(wire
+		(pts
+			(xy 529.59 276.86) (xy 529.59 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17959b66-4a6d-4103-90ab-d00f379d43dc")
+	)
+	(wire
+		(pts
+			(xy 532.13 97.79) (xy 504.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1827,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 109.22) (xy 218.44 109.22)
+			(xy 524.51 156.21) (xy 532.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0adcdc-f8d0-4500-b39e-c6ea8f7dce31")
+	)
+	(wire
+		(pts
+			(xy 532.13 107.95) (xy 504.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1703,13 +1847,63 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 127) (xy 243.84 127)
+			(xy 532.13 125.73) (xy 529.59 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b17fbdd-4da0-44f7-9ffb-7c0afd341597")
+	)
+	(wire
+		(pts
+			(xy 455.93 254) (xy 427.99 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c784933-c226-4e1a-97f4-2d4fd3496136")
+	)
+	(wire
+		(pts
+			(xy 453.39 356.87) (xy 453.39 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd10264-7b59-4c1c-80a1-9bea4c079b95")
+	)
+	(wire
+		(pts
+			(xy 455.93 320.04) (xy 427.99 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e13f11a-6772-4980-8a88-54110bf8dcd5")
+	)
+	(wire
+		(pts
+			(xy 532.13 248.92) (xy 504.19 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2178cdbb-8742-41f2-a5ab-1d5163c21c83")
+	)
+	(wire
+		(pts
+			(xy 529.59 194.31) (xy 532.13 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220b7032-d8a8-43a6-ac96-1602f58534cb")
 	)
 	(wire
 		(pts
@@ -1723,6 +1917,46 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 233.68) (xy 532.13 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d580eb-5865-47e5-bc42-f8e3ec936599")
+	)
+	(wire
+		(pts
+			(xy 455.93 304.8) (xy 448.31 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e36d5b-254d-4692-b316-746de32f7517")
+	)
+	(wire
+		(pts
+			(xy 453.39 199.39) (xy 453.39 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a49477d-5a58-472b-aef7-491ed235ad7c")
+	)
+	(wire
+		(pts
+			(xy 455.93 340.36) (xy 427.99 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c31b9c0-2e7c-4aff-a527-aad79df2a3f3")
+	)
+	(wire
+		(pts
 			(xy 115.57 152.4) (xy 118.11 152.4)
 		)
 		(stroke
@@ -1730,6 +1964,16 @@
 			(type default)
 		)
 		(uuid "3c994b81-23a9-400e-b41c-4b5b81c7ff0b")
+	)
+	(wire
+		(pts
+			(xy 453.39 276.86) (xy 453.39 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de5a65d-79c3-4873-a904-3d06c41e7548")
 	)
 	(wire
 		(pts
@@ -1753,7 +1997,57 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 218.44 88.9)
+			(xy 529.59 354.33) (xy 529.59 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c477b3-0546-4d2b-962e-1ad2e3c5905b")
+	)
+	(wire
+		(pts
+			(xy 529.59 279.4) (xy 529.59 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43023beb-368c-4b5e-8449-1ca90648b06d")
+	)
+	(wire
+		(pts
+			(xy 455.93 124.46) (xy 453.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44085072-514b-4db8-a505-d9bd6bdcdaac")
+	)
+	(wire
+		(pts
+			(xy 455.93 151.13) (xy 448.31 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d34035-0845-431d-b5fc-e52f43237e8f")
+	)
+	(wire
+		(pts
+			(xy 455.93 161.29) (xy 427.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dfe18b-8686-4f16-b534-fd3c0c3d3a9a")
+	)
+	(wire
+		(pts
+			(xy 532.13 87.63) (xy 504.19 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1773,13 +2067,123 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 93.98) (xy 218.44 93.98)
+			(xy 532.13 92.71) (xy 504.19 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4afc4ad1-d82a-4b90-9289-ef16e4e9ee14")
+	)
+	(wire
+		(pts
+			(xy 532.13 181.61) (xy 504.19 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b78e9d0-2d05-474d-9ec1-698da5889e47")
+	)
+	(wire
+		(pts
+			(xy 455.93 96.52) (xy 427.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf0db71-376f-41c2-b8ed-1dcbfc1c69df")
+	)
+	(wire
+		(pts
+			(xy 532.13 166.37) (xy 504.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5740b2-1598-4adf-8b5b-0f2f3700ae1e")
+	)
+	(wire
+		(pts
+			(xy 529.59 203.2) (xy 529.59 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6fa103-db46-4b52-89bc-2572a3957884")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aee38b-f681-45e4-b0cb-2743dbb0654b")
+	)
+	(wire
+		(pts
+			(xy 532.13 264.16) (xy 504.19 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581372f3-93ce-404c-a77b-2ab4ad7f4549")
+	)
+	(wire
+		(pts
+			(xy 532.13 336.55) (xy 504.19 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c7ee53-aaf0-4ccf-81ca-973c558d6d49")
+	)
+	(wire
+		(pts
+			(xy 107.95 172.72) (xy 118.11 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f4cf74-6897-4f99-9f04-4f415aec87b3")
+	)
+	(wire
+		(pts
+			(xy 455.93 166.37) (xy 427.99 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593cccac-ee39-4305-adec-2dfa4665e039")
+	)
+	(wire
+		(pts
+			(xy 532.13 176.53) (xy 504.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de305a7-5ac6-4680-a679-169c51ce9e77")
+	)
+	(wire
+		(pts
+			(xy 455.93 181.61) (xy 427.99 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e099e88-fd13-4526-a2f9-ef694316e5d2")
 	)
 	(wire
 		(pts
@@ -1793,13 +2197,213 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 104.14) (xy 218.44 104.14)
+			(xy 532.13 238.76) (xy 504.19 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6018cc5c-3af3-41ee-a1f9-0a8e348c7ac2")
+	)
+	(wire
+		(pts
+			(xy 532.13 151.13) (xy 524.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645ec9c1-51ab-4361-af5b-e15b2b46102a")
+	)
+	(wire
+		(pts
+			(xy 453.39 279.4) (xy 453.39 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6464d2f8-5144-41b1-9166-6f434613ba31")
+	)
+	(wire
+		(pts
+			(xy 455.93 335.28) (xy 427.99 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a77100d-ce57-441f-80de-9cfce17c3013")
+	)
+	(wire
+		(pts
+			(xy 532.13 186.69) (xy 504.19 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba9aebe-7661-4d62-84f2-3c928433497e")
+	)
+	(wire
+		(pts
+			(xy 529.59 349.25) (xy 532.13 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc82353-e31c-4b0f-8072-513a5a7804e2")
+	)
+	(wire
+		(pts
+			(xy 532.13 161.29) (xy 504.19 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc96150-0fb5-4db6-938e-d5f529ceaef2")
+	)
+	(wire
+		(pts
+			(xy 532.13 331.47) (xy 504.19 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb0afca-ec73-441f-9196-c331bc5d8d1c")
+	)
+	(wire
+		(pts
+			(xy 532.13 326.39) (xy 504.19 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707993e5-9abc-48d1-9377-f2e65d2001af")
+	)
+	(wire
+		(pts
+			(xy 448.31 81.28) (xy 455.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711a281f-e9c7-4163-b832-d4e19cc51e5e")
+	)
+	(wire
+		(pts
+			(xy 532.13 102.87) (xy 504.19 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "71210571-9c8e-493f-9303-e5ac6f535177")
+	)
+	(wire
+		(pts
+			(xy 455.93 106.68) (xy 427.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b9d11f-a897-4a23-8700-b2cb2e2df97d")
+	)
+	(wire
+		(pts
+			(xy 448.31 151.13) (xy 448.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b6808a-5ee1-4252-8272-2e9ef243ebf0")
+	)
+	(wire
+		(pts
+			(xy 455.93 248.92) (xy 427.99 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7738f980-d5fd-4d46-bbe0-c43e82471034")
+	)
+	(wire
+		(pts
+			(xy 448.31 228.6) (xy 448.31 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7758db27-db13-42ac-960e-c5a86ba7eed4")
+	)
+	(wire
+		(pts
+			(xy 455.93 276.86) (xy 453.39 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fdc69b-a05c-4856-b299-d1c3b7805e31")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e55e3a-26d3-4e81-bc6f-657c013c06cc")
+	)
+	(wire
+		(pts
+			(xy 453.39 124.46) (xy 453.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a72b801-7413-46e2-afd1-4daa88fac35b")
+	)
+	(wire
+		(pts
+			(xy 532.13 243.84) (xy 504.19 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805aa977-f679-4f51-99f6-bb5aceb5fb1b")
+	)
+	(wire
+		(pts
+			(xy 532.13 321.31) (xy 504.19 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854bd171-8ae1-4e97-886d-9fb359ad7d37")
+	)
+	(wire
+		(pts
+			(xy 524.51 228.6) (xy 524.51 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8666f180-0560-4f23-9677-044d1fe7c86e")
 	)
 	(wire
 		(pts
@@ -1813,7 +2417,27 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 121.92) (xy 246.38 121.92)
+			(xy 532.13 354.33) (xy 529.59 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951d2944-9dcb-4499-b7a8-20d479d6ec7e")
+	)
+	(wire
+		(pts
+			(xy 532.13 259.08) (xy 504.19 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954c2421-d776-4448-93af-07c5a52188ce")
+	)
+	(wire
+		(pts
+			(xy 529.59 120.65) (xy 532.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1833,13 +2457,103 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 78.74) (xy 238.76 73.66)
+			(xy 532.13 341.63) (xy 504.19 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcd0d5d-2ca8-4ea3-8e93-32fac3494e12")
+	)
+	(wire
+		(pts
+			(xy 524.51 77.47) (xy 524.51 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d2c3f5e-9d2f-4b58-b4ea-a9eca553b8b7")
+	)
+	(wire
+		(pts
+			(xy 532.13 254) (xy 504.19 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6a5e1a-c476-4294-ab3d-0ba470d46fac")
+	)
+	(wire
+		(pts
+			(xy 453.39 353.06) (xy 453.39 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0ff4fd-928f-43b4-b8b6-1a64376c6f1b")
+	)
+	(wire
+		(pts
+			(xy 455.93 243.84) (xy 427.99 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4cfe35-69c5-4eaa-9f32-58d8604b11f4")
+	)
+	(wire
+		(pts
+			(xy 453.39 271.78) (xy 455.93 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25497dc-c0a7-4652-aaf0-8dff2a80e64d")
+	)
+	(wire
+		(pts
+			(xy 532.13 171.45) (xy 504.19 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ba38df-915a-4a88-92ce-a5500fbb2065")
+	)
+	(wire
+		(pts
+			(xy 448.31 156.21) (xy 455.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56c22b3-22fb-4ec3-a944-b2a09ac6fa78")
+	)
+	(wire
+		(pts
+			(xy 455.93 259.08) (xy 427.99 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60df8a0-ffbe-4392-b86f-9dbeb6a098fa")
+	)
+	(wire
+		(pts
+			(xy 455.93 186.69) (xy 427.99 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3a6467-493f-49be-8051-d2bfc88e4bba")
 	)
 	(wire
 		(pts
@@ -1853,13 +2567,93 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 246.38 83.82)
+			(xy 524.51 151.13) (xy 524.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19bc4a6-5739-48d4-8354-bfe71b816793")
+	)
+	(wire
+		(pts
+			(xy 524.51 82.55) (xy 532.13 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b51c3460-da98-429f-b7f4-ab09d8795124")
+	)
+	(wire
+		(pts
+			(xy 455.93 353.06) (xy 453.39 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69ad365-6515-417b-b4b3-d71f0a84d6c8")
+	)
+	(wire
+		(pts
+			(xy 455.93 228.6) (xy 448.31 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7244985-c48a-47e0-84d6-1b6d65868608")
+	)
+	(wire
+		(pts
+			(xy 107.95 162.56) (xy 118.11 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba722f39-0304-4959-a325-abc9aff5f0d7")
+	)
+	(wire
+		(pts
+			(xy 453.39 203.2) (xy 453.39 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf88385-13ee-4f6a-92de-d978dbfb5386")
+	)
+	(wire
+		(pts
+			(xy 524.51 306.07) (xy 524.51 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11adb5c-12ef-4c2a-94d0-085fdf8bfcc0")
+	)
+	(wire
+		(pts
+			(xy 455.93 101.6) (xy 427.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6311add-fb67-4eb8-8327-a1c8562e9226")
+	)
+	(wire
+		(pts
+			(xy 448.31 304.8) (xy 448.31 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b68447-9bae-4503-b93c-29f22c018bfe")
 	)
 	(wire
 		(pts
@@ -1883,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 356.87) (xy 529.59 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff488e9-af8c-4663-b5a3-d2e469d705dc")
+	)
+	(wire
+		(pts
 			(xy 115.57 121.92) (xy 118.11 121.92)
 		)
 		(stroke
@@ -1893,7 +2697,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 127) (xy 243.84 121.92)
+			(xy 455.93 111.76) (xy 427.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d171add4-d078-4c3f-94f3-072192dd376a")
+	)
+	(wire
+		(pts
+			(xy 529.59 125.73) (xy 529.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1903,23 +2717,53 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 118.11 111.76)
+			(xy 448.31 309.88) (xy 455.93 309.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2e09f0b-7734-42a8-9cae-03e80bb0552a")
+		(uuid "d2573c79-e6c2-4517-a9bf-193890bda4f0")
 	)
 	(wire
 		(pts
-			(xy 246.38 114.3) (xy 218.44 114.3)
+			(xy 455.93 176.53) (xy 427.99 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32f7ef7-f46e-49bf-982b-603ee32075f7")
+	)
+	(wire
+		(pts
+			(xy 532.13 228.6) (xy 524.51 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7af3eb8-305c-42ba-bc2d-5d78f7687c1c")
+	)
+	(wire
+		(pts
+			(xy 532.13 113.03) (xy 504.19 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d86bc27d-80d4-4931-843d-62cf4b8a6c30")
+	)
+	(wire
+		(pts
+			(xy 455.93 91.44) (xy 427.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0873f1-c9e0-458c-b45c-25f473a4f4df")
 	)
 	(wire
 		(pts
@@ -1943,7 +2787,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 121.92) (xy 115.57 111.76)
+			(xy 524.51 311.15) (xy 532.13 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6279cd0-b15a-4a6a-8d56-c42a994cb6e3")
+	)
+	(wire
+		(pts
+			(xy 529.59 199.39) (xy 529.59 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9926d7d-41dc-4733-908d-9f5faee16156")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 115.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +2817,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 78.74) (xy 238.76 78.74)
+			(xy 453.39 119.38) (xy 455.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea261575-bb5f-4317-a5f4-0d50f0c5e55a")
+	)
+	(wire
+		(pts
+			(xy 532.13 77.47) (xy 524.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1973,6 +2847,106 @@
 	)
 	(wire
 		(pts
+			(xy 455.93 330.2) (xy 427.99 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed17575b-47ab-4aac-bf34-c29b88a4d354")
+	)
+	(wire
+		(pts
+			(xy 448.31 233.68) (xy 455.93 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f033a426-4e53-4655-8ba8-7f2679da8f83")
+	)
+	(wire
+		(pts
+			(xy 532.13 316.23) (xy 504.19 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f037781b-1f28-4e67-848a-9d9726577d65")
+	)
+	(wire
+		(pts
+			(xy 455.93 86.36) (xy 427.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1444535-1503-4164-9b25-f49cabdae88c")
+	)
+	(wire
+		(pts
+			(xy 532.13 306.07) (xy 524.51 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c3705f-7c87-4e07-b32b-aa1f4ab9e1ac")
+	)
+	(wire
+		(pts
+			(xy 453.39 347.98) (xy 455.93 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f363e036-e071-42f4-9c67-f0318905efaa")
+	)
+	(wire
+		(pts
+			(xy 532.13 199.39) (xy 529.59 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3df5897-3e25-4e1f-8b4d-21c2289229df")
+	)
+	(wire
+		(pts
+			(xy 453.39 127) (xy 453.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50d1bfc-943b-4ddb-b55f-7b245bda90a0")
+	)
+	(wire
+		(pts
+			(xy 529.59 271.78) (xy 532.13 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58fc5be-599c-4b23-b9ee-8b61b9ad2451")
+	)
+	(wire
+		(pts
+			(xy 455.93 264.16) (xy 427.99 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71d2d9a-ace6-451d-b7f3-c8325684847f")
+	)
+	(wire
+		(pts
 			(xy 105.41 74.93) (xy 105.41 77.47)
 		)
 		(stroke
@@ -1980,6 +2954,196 @@
 			(type default)
 		)
 		(uuid "f769860f-9edd-4bd1-a1df-289447b5718b")
+	)
+	(wire
+		(pts
+			(xy 455.93 76.2) (xy 448.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa760c82-7cb0-4228-bf07-6aa0d942df05")
+	)
+	(wire
+		(pts
+			(xy 455.93 199.39) (xy 453.39 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde27348-5596-4d24-9f63-57b9e5cb8612")
+	)
+	(wire
+		(pts
+			(xy 455.93 171.45) (xy 427.99 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7d9445-a36d-4d6e-b65e-f99cc7cb4202")
+	)
+	(label "SDATA_DIFF_P_3"
+		(at 427.99 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "033f941a-414d-4eec-856d-eed3dc53b979")
+	)
+	(label "SCLK_DIFF_P_7"
+		(at 427.99 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "059b0397-eeb4-423d-ba4d-1e9fd20d79c4")
+	)
+	(label "SDATA_DIFF_P_5"
+		(at 308.61 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "070b5097-9b9b-4ded-8bb5-a0f7c918742b")
+	)
+	(label "CS_DIFF_P_4"
+		(at 384.81 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "088884b8-be96-4322-bfbe-392de9798d34")
+	)
+	(label "SDATA_DIFF_P_5"
+		(at 427.99 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08f614e4-1244-430e-97ec-09b8961cfb6a")
+	)
+	(label "SDATA_DIFF_N_2"
+		(at 384.81 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0beeee74-7972-4e1c-a45b-2eca48c59d91")
+	)
+	(label "CS_DIFF_P_1"
+		(at 427.99 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cab6d8e-51aa-499f-bde0-ced53fb09996")
+	)
+	(label "SDATA_DIFF_P_1"
+		(at 308.61 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d868218-281b-4586-a761-38d2a92885e7")
+	)
+	(label "SCLK_DIFF_P_5"
+		(at 427.99 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e8362b0-f6e7-47c6-8143-a4e0a2720d12")
+	)
+	(label "CS_DIFF_N_4"
+		(at 504.19 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f92190d-3efc-44ef-be92-5e41fc19abb3")
+	)
+	(label "CS_DIFF_P_1"
+		(at 308.61 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11c915a5-a169-410c-9744-064b8645ff05")
+	)
+	(label "CS_DIFF_N_3"
+		(at 427.99 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "141edfe5-1d2b-4873-ae4b-1e7f536296f8")
+	)
+	(label "SCLK_DIFF_N_2"
+		(at 384.81 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "154e15bb-c55d-40c1-8bbe-d3bb0e2caa93")
+	)
+	(label "CS_DIFF_P_8"
+		(at 384.81 317.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "162fc8ba-8db8-40d2-93a8-1607c93c3527")
+	)
+	(label "CS_DIFF_P_6"
+		(at 384.81 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18af4ea5-2ba6-4dbc-8ba6-197161ee8d89")
+	)
+	(label "SDATA_DIFF_P_4"
+		(at 504.19 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18c66b98-84b2-4564-a40a-d55ae51b4fba")
 	)
 	(label "SDATA_DIFF_P"
 		(at 156.21 170.18 0)
@@ -1991,8 +3155,98 @@
 		)
 		(uuid "1a2a6a46-b1c4-40ae-99da-a777d6879cf1")
 	)
-	(label "SDATA_DIFF_P"
-		(at 218.44 109.22 0)
+	(label "SCLK_DIFF_N_6"
+		(at 504.19 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c49475b-1dcc-44cc-8524-345345936854")
+	)
+	(label "CS_DIFF_P_3"
+		(at 427.99 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d3243a1-cda7-47c9-8296-f3c50dbfb822")
+	)
+	(label "SCLK_DIFF_P_6"
+		(at 504.19 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2848544d-4470-4cb6-bbf3-aa69c42c1bad")
+	)
+	(label "SDATA_DIFF_N_3"
+		(at 427.99 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28d4bbc3-5d77-4667-b977-01ef0a45c80f")
+	)
+	(label "CS_DIFF_N_4"
+		(at 384.81 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e4ea5f2-6be8-4314-bb78-bb92ece5d69c")
+	)
+	(label "SCLK_DIFF_P_4"
+		(at 384.81 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e92f484-471f-4a08-a256-bf9b80b770cd")
+	)
+	(label "CS_DIFF_N_2"
+		(at 384.81 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32e9e750-7357-409a-ae92-1f0ae857f5b6")
+	)
+	(label "SDATA"
+		(at 107.95 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3425fec7-3dc8-412e-ad88-49a32893a6d4")
+	)
+	(label "SCLK_DIFF_N_7"
+		(at 427.99 325.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "361959a6-13d5-4514-8ce6-f48494c422d5")
+	)
+	(label "SDATA_DIFF_P_2"
+		(at 504.19 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,8 +3255,18 @@
 		)
 		(uuid "381c8c10-49f2-4b5b-9fa5-82448e889d6b")
 	)
-	(label "SCLK_DIFF_P"
-		(at 218.44 93.98 0)
+	(label "SCLK_DIFF_N_4"
+		(at 384.81 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38584d16-aba4-4c38-9373-8d54729f4f7c")
+	)
+	(label "SCLK_DIFF_P_2"
+		(at 504.19 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,6 +3274,106 @@
 			(justify left bottom)
 		)
 		(uuid "3974c536-8e1c-4a3c-9216-1010b0a1a4c5")
+	)
+	(label "SCLK_DIFF_N_3"
+		(at 427.99 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a741dc5-0270-4ecd-9aa1-63c688b36401")
+	)
+	(label "SDATA_DIFF_N_5"
+		(at 308.61 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c4a3ff5-c62c-400d-84ff-3bbd5fa59061")
+	)
+	(label "SCLK_DIFF_N_3"
+		(at 308.61 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c4b310d-ee40-47bb-acd9-97126cb39485")
+	)
+	(label "SCLK"
+		(at 107.95 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d8a82b5-f239-471d-ad37-55c2fe32f09c")
+	)
+	(label "CS_1"
+		(at 110.49 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de39c7a-c651-430e-87f2-4611469b8355")
+	)
+	(label "SDATA_DIFF_N_8"
+		(at 504.19 341.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4061a065-9dfd-4724-b57b-5ca063fc6eb1")
+	)
+	(label "CS_DIFF_P_5"
+		(at 308.61 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48828aeb-ecde-4b46-af2e-94dd513b7d73")
+	)
+	(label "CS_DIFF_P_4"
+		(at 504.19 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b9f4905-898c-44f5-b073-6cef8a255371")
+	)
+	(label "SDATA_DIFF_N_4"
+		(at 504.19 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc07b44-b3ee-40fe-a9f3-c6a7b1267958")
+	)
+	(label "SCLK_DIFF_P_1"
+		(at 427.99 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d28fa25-aeaf-4455-ab26-66f6bed30cc7")
 	)
 	(label "CS_DIFF_P"
 		(at 156.21 99.06 0)
@@ -2021,6 +3385,66 @@
 		)
 		(uuid "5000abc5-e446-4fd8-a369-526e1ebeb1d9")
 	)
+	(label "CS_DIFF_N_7"
+		(at 308.61 300.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52428faf-5d5e-467e-a08a-98ea9a60586c")
+	)
+	(label "CS_DIFF_P_3"
+		(at 308.61 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54be6f8c-be4a-4b56-863c-13bf51b65c36")
+	)
+	(label "CS_DIFF_P_7"
+		(at 308.61 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56e8c763-e863-4b3f-b1c5-f431cde87d91")
+	)
+	(label "SCLK_DIFF_P_7"
+		(at 308.61 306.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59b254d1-4c6d-436d-a74c-efb52a8022eb")
+	)
+	(label "SDATA_DIFF_P_7"
+		(at 308.61 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bfce7de-93a6-4743-bea1-6fde8d57cfdf")
+	)
+	(label "SCLK_DIFF_N_5"
+		(at 427.99 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8a36fa-8f83-41a8-8fef-1d010a7908e9")
+	)
 	(label "SDATA_DIFF_N"
 		(at 156.21 175.26 0)
 		(effects
@@ -2030,6 +3454,56 @@
 			(justify left bottom)
 		)
 		(uuid "61164fbc-a39b-4ce4-a7ce-7a7f1ba6d8f4")
+	)
+	(label "CS_DIFF_P_6"
+		(at 504.19 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "613de75d-02e8-4b15-ba53-c34a344f4f37")
+	)
+	(label "CS_DIFF_P_7"
+		(at 427.99 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66bd85e3-4690-403c-bf61-58ea8b3bddc9")
+	)
+	(label "CS_DIFF_N_1"
+		(at 427.99 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e2931e-fc0f-49f8-9f17-9056ef8ea088")
+	)
+	(label "SCLK_DIFF_N_1"
+		(at 427.99 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e11c284-2bdf-4ced-bd41-8b78e52b30f6")
+	)
+	(label "CS_DIFF_N_6"
+		(at 384.81 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0f1131-af35-48c9-b40e-2027c130fc29")
 	)
 	(label "SCLK_DIFF_N"
 		(at 156.21 165.1 0)
@@ -2041,8 +3515,118 @@
 		)
 		(uuid "6ff50ac8-2ede-447b-876b-99a6481deb4e")
 	)
-	(label "CS_DIFF_P"
-		(at 218.44 104.14 0)
+	(label "SDATA_DIFF_N_7"
+		(at 308.61 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "705e87ba-e581-49bf-bea4-3271d222f7b9")
+	)
+	(label "SDATA_DIFF_P_6"
+		(at 504.19 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "780532eb-1b22-47cb-8aa6-860fad54591d")
+	)
+	(label "CS_DIFF_N_3"
+		(at 308.61 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7982a144-1533-4724-b76b-21d1f05be6f0")
+	)
+	(label "CS_DIFF_N_6"
+		(at 504.19 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd0f7e1-d46a-4bf6-8262-57dc6bad42f0")
+	)
+	(label "SDATA_DIFF_P_1"
+		(at 427.99 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f9d9ce7-96fc-4a5b-bb8a-50f4f0a2bf53")
+	)
+	(label "SCLK_DIFF_P_5"
+		(at 308.61 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "839666d4-ccf9-4981-886a-3f7c9264b81b")
+	)
+	(label "SCLK_DIFF_P_3"
+		(at 427.99 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86aa2a53-5ed9-4939-b500-3769702250e5")
+	)
+	(label "SDATA_DIFF_N_6"
+		(at 504.19 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87aa7f67-0bfd-4c2c-b42f-2033ec052455")
+	)
+	(label "SDATA_DIFF_N_6"
+		(at 384.81 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dd20964-cd94-4a06-88a1-d40eca07d122")
+	)
+	(label "CS_DIFF_N_5"
+		(at 308.61 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ffb825d-b400-4d13-a2b5-35b02ae2d49f")
+	)
+	(label "SDATA_DIFF_N_1"
+		(at 308.61 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "917bed0c-ce18-4f12-87b4-91888101f32e")
+	)
+	(label "CS_DIFF_P_2"
+		(at 504.19 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2050,6 +3634,146 @@
 			(justify left bottom)
 		)
 		(uuid "91ca90d8-e810-494f-b3fe-2c768a7f49dd")
+	)
+	(label "SCLK_DIFF_N_6"
+		(at 384.81 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9591458a-5d8b-46eb-b9e3-71a1da513843")
+	)
+	(label "CS_DIFF_N_8"
+		(at 504.19 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99c0ddea-57d0-4df9-b54e-fbc9d191ae87")
+	)
+	(label "SCLK_DIFF_P_8"
+		(at 504.19 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ef39a1b-fd16-4c54-8c72-bd84ec1164ab")
+	)
+	(label "SDATA_DIFF_N_5"
+		(at 427.99 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a908e3-38fe-4d4e-800d-e9c3e6af6427")
+	)
+	(label "SDATA_DIFF_N_7"
+		(at 427.99 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e743e9-1969-4bc6-bf7b-20ecf5696c93")
+	)
+	(label "CS_DIFF_N_1"
+		(at 308.61 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59d662d-28b1-4f48-8ed8-765fdd4e397d")
+	)
+	(label "SDATA_DIFF_N_3"
+		(at 308.61 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5a06ea1-0403-4f3a-be19-ef8e95c3f0f0")
+	)
+	(label "CS_DIFF_P_2"
+		(at 384.81 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba6477a-44f5-4da3-b302-62eb02b6c370")
+	)
+	(label "SCLK_DIFF_N_4"
+		(at 504.19 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad9daa19-53a7-48c9-b40d-8aa5d1ddffdc")
+	)
+	(label "SDATA_DIFF_P_3"
+		(at 308.61 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afffa2d4-1961-45ea-a3de-16d0fff5ec2a")
+	)
+	(label "SDATA_DIFF_P_4"
+		(at 384.81 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b21f9217-f6bb-47de-9134-1cb158a8b5de")
+	)
+	(label "SDATA_DIFF_N_4"
+		(at 384.81 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b328c94a-d4e8-4317-b7c9-345ed8874b3e")
+	)
+	(label "CS_DIFF_P_5"
+		(at 427.99 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42c4670-5fc1-48fa-9c60-0c379804a356")
+	)
+	(label "SCLK_DIFF_P_3"
+		(at 308.61 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b50405a2-2e15-4ab9-af0c-fd03331a7997")
 	)
 	(label "SCLK_DIFF_P"
 		(at 156.21 160.02 0)
@@ -2061,8 +3785,18 @@
 		)
 		(uuid "b98ab297-10c0-45cd-b04e-fc40cfbc6146")
 	)
-	(label "CS_DIFF_N"
-		(at 218.44 88.9 0)
+	(label "CS_DIFF_N_8"
+		(at 384.81 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1d756a-d22a-4c93-bfb4-c95f70f0b965")
+	)
+	(label "CS_DIFF_N_2"
+		(at 504.19 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,8 +3805,78 @@
 		)
 		(uuid "c1374fd4-39f9-4a1a-b6a1-176c8d6a58df")
 	)
-	(label "SDATA_DIFF_N"
-		(at 218.44 114.3 0)
+	(label "SDATA_DIFF_N_1"
+		(at 427.99 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5d07813-53ba-4aa5-a598-1642a80afdf6")
+	)
+	(label "SCLK_DIFF_P_4"
+		(at 504.19 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c73de88e-8960-4dd4-a32d-780472c8e666")
+	)
+	(label "SCLK_DIFF_N_1"
+		(at 308.61 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7879939-8df5-4694-8888-f49fc0654929")
+	)
+	(label "SCLK_DIFF_P_6"
+		(at 384.81 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb97e8a1-a901-4294-bb22-7aace035ffa8")
+	)
+	(label "SDATA_DIFF_P_6"
+		(at 384.81 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc05b079-032c-4b27-a37c-6241c67edcb5")
+	)
+	(label "SDATA_DIFF_P_7"
+		(at 427.99 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc194c55-69b0-4e92-bc62-9b102db2363f")
+	)
+	(label "SDATA_DIFF_P_2"
+		(at 384.81 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf7faa1e-22b6-4f0d-ad2b-12ba6e479c1a")
+	)
+	(label "SDATA_DIFF_N_2"
+		(at 504.19 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,8 +3885,38 @@
 		)
 		(uuid "d17f3c56-dddc-470c-a2f2-792e1d2e1160")
 	)
-	(label "SCLK_DIFF_N"
-		(at 218.44 99.06 0)
+	(label "CS_DIFF_P_8"
+		(at 504.19 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1fbf2de-17aa-49bb-a88f-bcf1cafbb3a9")
+	)
+	(label "SCLK_DIFF_N_8"
+		(at 384.81 312.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8eb2161-1cb4-4715-b2ab-674d954470c1")
+	)
+	(label "SCLK_DIFF_P_2"
+		(at 384.81 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d96f9fa0-4db6-49cf-9d1c-5d36f5ef7027")
+	)
+	(label "SCLK_DIFF_N_2"
+		(at 504.19 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,6 +3924,66 @@
 			(justify left bottom)
 		)
 		(uuid "da31fa54-51d2-421f-9b26-f176c50059f4")
+	)
+	(label "CS_DIFF_N_7"
+		(at 427.99 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db52cc14-1c4e-4387-86ad-6eefb25101d9")
+	)
+	(label "CS_DIFF_N_5"
+		(at 427.99 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddee8d2c-87a4-4843-9132-2c9a4b2e0f98")
+	)
+	(label "SCLK_DIFF_N_8"
+		(at 504.19 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de92d881-be48-4212-bae0-8194fe2c46ec")
+	)
+	(label "SDATA_DIFF_N_8"
+		(at 384.81 327.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e67dad14-5ac4-47c0-9090-e6696625f078")
+	)
+	(label "SCLK_DIFF_P_1"
+		(at 308.61 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e820c5a1-ff0c-4d78-82d0-3461ed0684a6")
+	)
+	(label "SDATA_DIFF_P_8"
+		(at 504.19 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e96e496b-990b-4e47-969f-aa3d57007b3b")
 	)
 	(label "CS_DIFF_N"
 		(at 156.21 104.14 0)
@@ -2100,6 +3994,46 @@
 			(justify left bottom)
 		)
 		(uuid "eca3b3c5-74c8-45fa-9828-1246b9a340b9")
+	)
+	(label "SDATA_DIFF_P_8"
+		(at 384.81 322.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61ca01d-df58-46df-bd4c-5301e8b5d915")
+	)
+	(label "SCLK_DIFF_N_5"
+		(at 308.61 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d07c6b-ba91-4544-bd5b-f334417280db")
+	)
+	(label "SCLK_DIFF_P_8"
+		(at 384.81 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb87ff08-0ab8-4d23-82e7-62a44fd0473c")
+	)
+	(label "SCLK_DIFF_N_7"
+		(at 308.61 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe51cd45-6530-41d6-99c2-fa479d259546")
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:3V3_BAR")
@@ -2176,8 +4110,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
-		(at 238.76 83.82 270)
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 448.31 146.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2185,9 +4119,333 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "123e5912-33b8-4c0d-89f3-3acd29496ca6")
-		(property "Reference" "#PWR040"
-			(at 238.76 83.82 0)
+		(uuid "09b584f3-5f14-4d40-b219-d1a1594596e4")
+		(property "Reference" "#PWR055"
+			(at 448.31 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 448.31 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2648a4a7-e461-47d2-a50d-76f32cc70ec7")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 455.93 76.2 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cf12a2b-95c0-45c7-b210-ce8697233338")
+		(property "Reference" "J1"
+			(at 460.756 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 481.33 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 455.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 455.93 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 455.422 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "049b3952-0890-43ea-95c2-477c20c63f9f")
+		)
+		(pin "4"
+			(uuid "cc96987f-c82e-4a47-a094-33c450257ed7")
+		)
+		(pin "6"
+			(uuid "89a8e42b-ffd6-46e4-a3f9-ecfd36cd25df")
+		)
+		(pin "8"
+			(uuid "52d96cb4-33c9-4b14-a28c-ff05eea7f67d")
+		)
+		(pin "9"
+			(uuid "84943b9e-8a6d-4551-8a9f-76d0234c7f11")
+		)
+		(pin "2"
+			(uuid "0dcbed51-daaf-41ed-801c-deca283be4ff")
+		)
+		(pin "3"
+			(uuid "9a207e14-0f27-46f7-8a19-f7540e5f59be")
+		)
+		(pin "7"
+			(uuid "9b0f15e6-777b-4a21-bdf2-2ee5cd99940c")
+		)
+		(pin "1"
+			(uuid "cea9a599-afce-4d55-b767-6a91fe6db0cf")
+		)
+		(pin "10"
+			(uuid "c811c43d-1c40-4037-b46c-d9d0ddae1772")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 448.31 309.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0df611c8-6ca0-4b49-9c0b-26df3d472cd5")
+		(property "Reference" "#PWR062"
+			(at 448.31 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +4456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 83.82 90)
+			(at 441.96 309.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2209,7 +4467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 83.82 0)
+			(at 448.31 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2219,7 +4477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 83.82 0)
+			(at 448.31 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2229,7 +4487,82 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 83.82 0)
+			(at 448.31 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "52b66f2c-3a55-4753-b601-e38495b998a5")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 524.51 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "123e5912-33b8-4c0d-89f3-3acd29496ca6")
+		(property "Reference" "#PWR040"
+			(at 524.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 518.16 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,6 +4726,700 @@
 			(project "RPI_Hat_Mating_Board"
 				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 532.13 151.13 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "224bd4a3-44ca-4b07-a2c1-ec14413531f8")
+		(property "Reference" "J4"
+			(at 536.956 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 557.53 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 532.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 532.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 531.622 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "8506f2b2-9e89-4651-8fda-7cbfd085100a")
+		)
+		(pin "4"
+			(uuid "e97fe47c-7c4a-4963-9d9a-844a5485b9bb")
+		)
+		(pin "6"
+			(uuid "8e5ba249-35be-4505-948d-0246093f2d5a")
+		)
+		(pin "8"
+			(uuid "288379bb-f82b-4ee0-a3b2-7a64d33c5170")
+		)
+		(pin "9"
+			(uuid "2efbc184-8725-4d0f-bf4c-25f35cc61f7e")
+		)
+		(pin "2"
+			(uuid "0d5d1546-6221-4b50-babb-9d428b8a1e00")
+		)
+		(pin "3"
+			(uuid "ead5198b-cbc2-441a-989e-a0ab5d2e2274")
+		)
+		(pin "7"
+			(uuid "6c3e5d9f-7be5-4380-a00c-5de7ece204ee")
+		)
+		(pin "1"
+			(uuid "1a22d3df-1652-4ac7-89bd-2f1fc579080f")
+		)
+		(pin "10"
+			(uuid "26759c7e-28d4-4e2c-90c0-56ed1d3f3381")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 524.51 300.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bc87314-328b-43fe-ad52-9ca7ef757090")
+		(property "Reference" "#PWR049"
+			(at 524.51 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 524.51 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bf54c607-0743-44eb-8f1c-9af62b49cca8")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 453.39 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "333f7c8a-9ff1-4373-9035-ae120e3f257c")
+		(property "Reference" "#PWR057"
+			(at 453.39 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 453.39 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b6650669-a1bd-43a3-a30e-15fae4b63913")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 453.39 279.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f2c7ea1-a4b0-4f87-9b97-d48377027b3b")
+		(property "Reference" "#PWR060"
+			(at 453.39 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 453.39 285.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8a65b93e-287c-4b89-9302-0efa4f44b103")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 448.31 223.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "417836fa-2334-4ff2-b368-a3cd3c544b1c")
+		(property "Reference" "#PWR058"
+			(at 448.31 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 448.31 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "829de6d1-8897-4526-8e4c-06dfa8e1283b")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 529.59 279.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4761f311-7edf-4f0a-a0ab-1ee69122b6ad")
+		(property "Reference" "#PWR048"
+			(at 529.59 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 529.59 285.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 529.59 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4695e72b-1074-4bf8-907f-933ff31fe15d")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 448.31 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5735db50-e561-4219-9340-88ac2c764892")
+		(property "Reference" "#PWR052"
+			(at 448.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 448.31 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "463856c6-1745-4556-b6e7-584f022f682c")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2670,8 +5697,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 524.51 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aaf9b18-9d71-45c9-b7da-0f36811aef50")
+		(property "Reference" "#PWR047"
+			(at 524.51 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 518.16 233.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bd2a90ff-e999-4552-9a32-1a7c79b0ffec")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 529.59 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "646c3365-4767-46c8-8c4f-de7cf808cfdb")
+		(property "Reference" "#PWR045"
+			(at 529.59 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 529.59 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 529.59 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ce3f32d7-92bb-48f1-bd85-fea861e62821")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
-		(at 246.38 78.74 270)
+		(at 455.93 228.6 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2680,9 +5856,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7564ffea-6b43-432b-897c-7685126559c0")
-		(property "Reference" "J1"
-			(at 251.206 73.66 90)
+		(uuid "66eafbe1-1f73-48ab-8bc9-494ef37ea63a")
+		(property "Reference" "J5"
+			(at 460.756 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2693,7 +5869,7 @@
 			)
 		)
 		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
-			(at 271.78 76.962 0)
+			(at 481.33 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2704,7 +5880,7 @@
 			)
 		)
 		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
-			(at 246.38 78.74 0)
+			(at 455.93 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 78.74 0)
+			(at 455.93 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +5902,7 @@
 			)
 		)
 		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
-			(at 246.38 78.74 0)
+			(at 455.93 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,7 +5913,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" "Through Hole"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2749,7 +5925,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +5937,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +5949,7 @@
 			)
 		)
 		(property "MAX CURRENT RATING" "1.5A"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,7 +5961,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +5973,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "2"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +5985,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "150V"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,7 +5997,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "RJ45"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +6009,7 @@
 			)
 		)
 		(property "MRPN" "MRPN-0000333"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,7 +6021,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "8"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +6033,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" ""
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +6045,257 @@
 			)
 		)
 		(property "MASS (G)" "1g"
-			(at 245.872 73.66 90)
+			(at 455.422 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "714af709-8d25-4d1e-bc26-1e817bdf24bf")
+		)
+		(pin "4"
+			(uuid "eb05bed8-f7ca-461c-8985-e5e46ec3b485")
+		)
+		(pin "6"
+			(uuid "7bba835b-6408-470c-bea4-f1c643b7c2e1")
+		)
+		(pin "8"
+			(uuid "70d28db4-4ea2-4017-afc3-487f3eba66a5")
+		)
+		(pin "9"
+			(uuid "33e4a761-cf03-4ecc-a5d6-6e91ba5f3457")
+		)
+		(pin "2"
+			(uuid "a6c71295-e7e6-4a01-be38-cc838b3c8379")
+		)
+		(pin "3"
+			(uuid "b9c1923a-54c4-4969-ab11-c1aaf258871f")
+		)
+		(pin "7"
+			(uuid "d669fe8a-0ef5-4894-90c3-e1014e49e057")
+		)
+		(pin "1"
+			(uuid "20ed8ec8-aa5a-4a26-9b41-4a0d3355ad4e")
+		)
+		(pin "10"
+			(uuid "42bfcbc7-cc0b-4e9e-8a8b-b06656d144c7")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 532.13 77.47 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7564ffea-6b43-432b-897c-7685126559c0")
+		(property "Reference" "J2"
+			(at 536.956 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 557.53 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 532.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 532.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 531.622 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 531.622 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +6339,407 @@
 		(instances
 			(project "RPI_Hat_Mating_Board"
 				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
-					(reference "J1")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 448.31 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bf9b20e-bf7f-46f9-b20a-b812605ca24e")
+		(property "Reference" "#PWR056"
+			(at 448.31 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 441.96 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "510ca8cf-9f05-40a6-b7cb-8d9d0b2fe054")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 532.13 306.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d0c5587-be57-4d41-823e-ff9384bf2f75")
+		(property "Reference" "J8"
+			(at 536.956 300.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 557.53 304.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 532.13 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 532.13 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 531.622 300.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "03b3e51f-4b96-440c-885c-0520c850c7cd")
+		)
+		(pin "4"
+			(uuid "04f309e4-8cce-4b1e-972c-73bb363f5c33")
+		)
+		(pin "6"
+			(uuid "0c147ed8-5b50-4429-ab91-bad69ce5d854")
+		)
+		(pin "8"
+			(uuid "bad8074c-3076-4f2a-adf8-12b529111106")
+		)
+		(pin "9"
+			(uuid "b21514c1-664b-4ea7-99bf-de55ef373f82")
+		)
+		(pin "2"
+			(uuid "7b8b53fd-bc69-4c3b-905c-d9f1303b0059")
+		)
+		(pin "3"
+			(uuid "a5eb1777-7830-4e17-bf34-0c0a2a26efe9")
+		)
+		(pin "7"
+			(uuid "7837ad69-8165-476f-850c-feced51f4dba")
+		)
+		(pin "1"
+			(uuid "f5ac5a71-6d35-425a-927f-72cb5ee1f99d")
+		)
+		(pin "10"
+			(uuid "b20ce81c-ee1a-4fa5-8192-2468eb348f2d")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 524.51 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83ef7dc9-6936-45d5-8576-e519cc0e433d")
+		(property "Reference" "#PWR044"
+			(at 524.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 518.16 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "74701a99-2f25-4d60-b48b-62d4dc424b99")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3265,6 +7091,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 448.31 299.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91eeea45-9815-4b74-83be-e3a109419877")
+		(property "Reference" "#PWR061"
+			(at 448.31 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 448.31 295.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 299.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 299.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 299.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8d2c833f-686f-4202-b301-6c879e43be66")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Maven Robotics:root_0_SN65HVD30DR-SYM_Maven Robotics")
 		(at 120.65 149.86 90)
 		(unit 1)
@@ -3308,7 +7208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd1781.pdf?ts=1795145686233&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD1781%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-tech-inno-dynpf_interface-cpc-pf-google-ww_en_int%2526utm_content%253Dprodfolddynamic%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D23902133687%2526gbraid%253D0AAAAAC068F18XUTUrBdV27_2CpeZPFXS2%2526gclid%253DCj0KCQiA2frXBhC_ARIsAPTFcdMt8yWe-BTyEDjWegoznpWpzbWdrVRP8uCBayF9KEEu9gnmPX4Ffa0aAhGhEALw_wcB"
 			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3497,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
-		(at 238.76 73.66 180)
+		(at 524.51 223.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3505,9 +7405,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cda9842b-8b61-4d0d-a745-f4cef1ca613e")
-		(property "Reference" "#PWR039"
-			(at 238.76 73.66 0)
+		(uuid "abc78a62-a18a-4da4-8a86-e6a42905e89f")
+		(property "Reference" "#PWR046"
+			(at 524.51 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +7418,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 238.76 69.85 0)
+			(at 524.51 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3528,7 +7428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 73.66 0)
+			(at 524.51 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3538,7 +7438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 73.66 0)
+			(at 524.51 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3548,7 +7448,729 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 73.66 0)
+			(at 524.51 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "338e40f5-a269-4a48-8cfe-f59fa0641481")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 455.93 304.8 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b24e032a-55f7-4ab8-9608-df4e10d2e1ec")
+		(property "Reference" "J7"
+			(at 460.756 299.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 481.33 303.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 455.93 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 455.93 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 455.422 299.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "7cc3f805-fb2c-47e0-8ab4-51c30f8c44cf")
+		)
+		(pin "4"
+			(uuid "597eaf3c-b078-4407-acc9-711573e0f220")
+		)
+		(pin "6"
+			(uuid "3140976b-635c-42c3-8fc8-ec9b3bf86bea")
+		)
+		(pin "8"
+			(uuid "4599c9b0-9f6f-4205-84eb-86815199be3f")
+		)
+		(pin "9"
+			(uuid "0f7e9cd8-bb4e-4014-9347-c91446714447")
+		)
+		(pin "2"
+			(uuid "0491dedd-426d-4a92-b83c-252aea27ff19")
+		)
+		(pin "3"
+			(uuid "1fb61368-927c-4a94-a0bb-8ce29c2042f4")
+		)
+		(pin "7"
+			(uuid "b871c495-39ca-4eec-9b7e-db4096deeb0a")
+		)
+		(pin "1"
+			(uuid "9a1d5dde-f442-4001-9fb9-561c95659270")
+		)
+		(pin "10"
+			(uuid "8bbaa5ab-f1fe-4084-af99-012f1c3abf81")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 453.39 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7480061-f8ab-46d8-b94e-f9c9ebadb134")
+		(property "Reference" "#PWR054"
+			(at 453.39 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 453.39 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f07f6c33-0027-414e-9ed0-bf8f39851970")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 532.13 228.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c46f73e1-e8be-4be3-a60c-d81553b9ec0f")
+		(property "Reference" "J6"
+			(at 536.956 223.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 557.53 226.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 532.13 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 532.13 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 531.622 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "57692b48-9a0f-46ad-969f-0604c087a36e")
+		)
+		(pin "4"
+			(uuid "decada65-3dba-44bf-84b1-5a736347acdf")
+		)
+		(pin "6"
+			(uuid "b22c73ec-39b7-4a57-af92-90fe1db637e8")
+		)
+		(pin "8"
+			(uuid "059fe231-bc56-4eec-8f8e-80f5f77d3ccc")
+		)
+		(pin "9"
+			(uuid "2a653cf7-aec5-4241-8f88-b0a09f83075f")
+		)
+		(pin "2"
+			(uuid "751f47e4-82f7-41f0-a624-d50dbf128ac2")
+		)
+		(pin "3"
+			(uuid "9a450c0c-6374-4654-83a0-c69c724c81ed")
+		)
+		(pin "7"
+			(uuid "6798c546-ec06-48ff-b5d5-964ad75e52c5")
+		)
+		(pin "1"
+			(uuid "a35f0924-e7da-48d2-95dd-8386b9e9fb9d")
+		)
+		(pin "10"
+			(uuid "ef3728c2-5a43-4296-a770-1b9bb20225f7")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 529.59 356.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5260a73-8a30-4f51-8db4-fe1da5d2b62c")
+		(property "Reference" "#PWR051"
+			(at 529.59 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 529.59 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 529.59 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "63a07cd2-6692-43ba-9bb3-351350a50e75")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 524.51 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cda9842b-8b61-4d0d-a745-f4cef1ca613e")
+		(property "Reference" "#PWR039"
+			(at 524.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 524.51 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3564,6 +8186,330 @@
 			(project "RPI_Hat_Mating_Board"
 				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Maven Robotics:root_0_mirrored_RJ45_nomag_8p8c_Maven Robotics")
+		(at 455.93 151.13 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf0fe81b-0208-4b15-b65a-241fd26b350c")
+		(property "Reference" "J3"
+			(at 460.756 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Conn_RJ45_Shielded_8p8c_RA_A-2004-2-4-LPS-N-R"
+			(at 481.33 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Piezo_Footprints:A-2004-2-4-LPS-N-R"
+			(at 455.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, RJ45, shielded, 8p8c, right angle, no magnetics, Assmann A-2004-2-4-LPS-N-R"
+			(at 455.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Through Hole"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE (C)" "85°C"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX CURRENT RATING" "1.5A"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE (C)" "-40°C"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "2"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "150V"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "RJ45"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MRPN" "MRPN-0000333"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "8"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MASS (G)" "1g"
+			(at 455.422 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "8c2e886c-29fb-44d1-bf33-7aab58988485")
+		)
+		(pin "4"
+			(uuid "2073f613-82e5-4dca-aaa2-14828403ae1f")
+		)
+		(pin "6"
+			(uuid "79c38cc0-ebac-4885-bed6-bc3c21ef6cc6")
+		)
+		(pin "8"
+			(uuid "84c2629b-d83d-41cf-b7f6-6dd6142c4aa8")
+		)
+		(pin "9"
+			(uuid "86f89b91-7cff-46f0-8d3c-55ded8849321")
+		)
+		(pin "2"
+			(uuid "93715c4d-86d0-482b-a2d5-a02ba6dadf3a")
+		)
+		(pin "3"
+			(uuid "6a2c6ad1-25fd-43d9-90b5-8c19029cd00f")
+		)
+		(pin "7"
+			(uuid "0c746d13-4971-4475-9950-d0d12e3cf5ee")
+		)
+		(pin "1"
+			(uuid "538024d3-a54a-4e68-8aac-b99e5bbbed0c")
+		)
+		(pin "10"
+			(uuid "50c77d3f-770d-4589-8221-756b23b0232b")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:5V0_BAR")
+		(at 524.51 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ded7da72-c4e3-452c-ab80-75e93958997d")
+		(property "Reference" "#PWR043"
+			(at 524.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 524.51 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "74ddcbe6-eb5d-4ab8-8d4a-421e0b853357")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3645,6 +8591,230 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 448.31 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edae52e1-baa2-4c71-8788-a4c4a3a9ed1c")
+		(property "Reference" "#PWR053"
+			(at 448.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 441.96 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4eec84f1-7664-42d8-bd85-106cbfb23a5e")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 448.31 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee3e95e7-60e9-4ec7-b7a4-000358467e85")
+		(property "Reference" "#PWR059"
+			(at 448.31 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 441.96 233.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4d07338f-f984-401f-a77f-2c7a20ab8f9b")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
+		(at 453.39 356.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee7f8b63-9011-4f61-9b21-37e573c390dd")
+		(property "Reference" "#PWR063"
+			(at 453.39 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH_GND"
+			(at 453.39 363.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0310fdf2-19c8-4420-a4f3-b1dbb7dc9162")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
 		(at 114.3 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3719,7 +8889,7 @@
 	)
 	(symbol
 		(lib_id "Piezo_ADC-altium-import:CH_GND_EARTH")
-		(at 243.84 137.16 0)
+		(at 529.59 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3729,7 +8899,7 @@
 		(dnp no)
 		(uuid "f384e299-1867-4a3f-90b1-3b8fcb26bde0")
 		(property "Reference" "#PWR041"
-			(at 243.84 137.16 0)
+			(at 529.59 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,7 +8910,7 @@
 			)
 		)
 		(property "Value" "CH_GND"
-			(at 243.84 143.51 0)
+			(at 529.59 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3750,7 +8920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 137.16 0)
+			(at 529.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3760,7 +8930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 137.16 0)
+			(at 529.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3770,7 +8940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 137.16 0)
+			(at 529.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3835,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd1781.pdf?ts=1795145686233&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD1781%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-tech-inno-dynpf_interface-cpc-pf-google-ww_en_int%2526utm_content%253Dprodfolddynamic%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D23902133687%2526gbraid%253D0AAAAAC068F18XUTUrBdV27_2CpeZPFXS2%2526gclid%253DCj0KCQiA2frXBhC_ARIsAPTFcdMt8yWe-BTyEDjWegoznpWpzbWdrVRP8uCBayF9KEEu9gnmPX4Ffa0aAhGhEALw_wcB"
 			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4017,6 +9187,81 @@
 			(project "RPI_Hat_Mating_Board"
 				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Piezo_ADC-altium-import:GND_SIGNAL_GROUND")
+		(at 524.51 311.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff4a2e51-971c-4014-9ac5-05a9cda6c265")
+		(property "Reference" "#PWR050"
+			(at 524.51 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 518.16 311.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 311.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 311.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 311.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "aaff0723-73eb-496e-9ae7-580668acca8f")
+		)
+		(instances
+			(project "RPI_Hat_Mating_Board"
+				(path "/fd79af7a-c1e1-4c52-9177-1c00ba64fdc5"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
