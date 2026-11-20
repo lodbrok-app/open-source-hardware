@@ -18583,7 +18583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a6d8a59-b3cb-4e9d-8a1c-962e3bbc1784")
@@ -18594,7 +18594,7 @@
 			)
 		)
 		(property "Description" "IC, TRANSCIEVER, RS-485/RS-422, 3.3VV, Full-Duplex, TI SN65HVD30DR, 8-SOIC"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e49fde7a-5759-46dd-83ef-971e6c079bf8")
