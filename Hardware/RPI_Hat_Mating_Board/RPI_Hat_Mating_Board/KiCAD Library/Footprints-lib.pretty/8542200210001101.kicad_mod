@@ -1,0 +1,229 @@
+(footprint "8542200210001101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "854-22-002-10-001101-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0.5 -3.125 0)
+		(layer "F.SilkS")
+		(uuid "b4ac4882-f721-4d79-a30a-dc27df905774")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "8542200210001101"
+		(at 0.635 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "abba8493-2c7f-4928-8353-9d387ef22d97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ae71c0-3202-4401-ba0b-15414d05f270")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27903e8d-17e9-4daf-bc7a-fdc3fe7c38d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.096 -1.105)
+		(end 3.366 -1.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "badbb07d-e67f-400e-aae3-34fbb2288f68")
+	)
+	(fp_line
+		(start -2.096 1.105)
+		(end -2.096 -1.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60c382fc-c190-4a43-8527-9b5106910509")
+	)
+	(fp_line
+		(start 3.366 -1.105)
+		(end 3.366 1.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4aa073a-ac42-4480-8ff3-3bbffa961cf3")
+	)
+	(fp_line
+		(start 3.366 1.105)
+		(end -2.096 1.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7c48763-38bf-40fc-ad0c-434f75995544")
+	)
+	(fp_line
+		(start -3.096 -2.105)
+		(end 4.366 -2.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa9a5c1d-bd1f-4d27-8a49-b3bc87c96485")
+	)
+	(fp_line
+		(start -3.096 2.105)
+		(end -3.096 -2.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94baf8ba-95e7-4cb7-8e77-62ad26fb0fb6")
+	)
+	(fp_line
+		(start 4.366 -2.105)
+		(end 4.366 2.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab00d584-5fec-417f-b797-dbf25e1cd7f7")
+	)
+	(fp_line
+		(start 4.366 2.105)
+		(end -3.096 2.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abdc81e7-38f0-4a28-8952-8fc22f008ef9")
+	)
+	(fp_line
+		(start -2.096 -1.105)
+		(end 3.366 -1.105)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16b51137-1a46-49d1-99a6-2dfafc729c83")
+	)
+	(fp_line
+		(start -2.096 1.105)
+		(end -2.096 -1.105)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb57fc00-3c83-4224-a4fe-fc8be4125c54")
+	)
+	(fp_line
+		(start 3.366 -1.105)
+		(end 3.366 1.105)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa862377-87cc-4631-af0d-2fa5223a1003")
+	)
+	(fp_line
+		(start 3.366 1.105)
+		(end -2.096 1.105)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f26b6a84-fea3-4f72-9d23-b725b70afe0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.635 0 0)
+		(layer "F.Fab")
+		(uuid "cd1b2f36-6222-459a-80be-29c7942a4550")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 0)
+		(size 1.241 1.241)
+		(drill 1.241)
+		(layers "*.Cu" "*.Mask")
+		(uuid "da3a0789-f42a-4659-bb09-df15a0152ba2")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 0)
+		(size 1.241 1.241)
+		(drill 1.241)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e24d490c-b966-4945-b962-6757371182db")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.606)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "180fcfac-37bd-4807-a6b1-f57b3c8e9bf0")
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 0)
+		(size 1 1)
+		(drill 0.606)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7ddbcd1-fab1-4ae5-9d19-ce540517c1c5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Imports/854 Spring-Loaded Pogo Pin Header Strip/mill-max-854-22-002-10-001101.STEP"
+		(offset
+			(xyz -2.1 1.1 -5.99)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
